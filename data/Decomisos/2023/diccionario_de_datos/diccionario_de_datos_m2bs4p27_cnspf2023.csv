@@ -1,0 +1,33 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 27,Carácter,4,0-5000
+enticve1,Entidad federativa - Clave,SECC IV. 27,Carácter,2500,
+entifed1,Entidad federativa - Nombre,SECC IV. 27,Carácter,2500,
+municve1,Municipio o demarcación territorial - Clave,SECC IV. 27,Carácter,2500,
+municip1,Municipio o demarcación territorial - Nombre,SECC IV. 27,Carácter,2500,
+espeas1,Agaváceas - Agaves,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas2,Agaváceas - Bacanoras,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas3,Agaváceas - Magueyes,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas4,Agaváceas - Mezcales,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas5,Agaváceas - Otro tipo de agaváceas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas6,Agaváceas - Agaváceas no identificadas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas7,Cactáceas - Biznagas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas8,Cactáceas - Cactus,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas9,Cactáceas - Nopales,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas10,Cactáceas - Otro tipo de cactáceas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas11,Cactáceas - Cactáceas no identificadas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas12,Cicadales - Palmas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas13,Cicadales - Palmeras,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas14,Cicadales - Otro tipo de palmas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas15,Cicadales - Cicadales no identificadas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas16,Maderables - Caobas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas17,Maderables - Cedros,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas18,Maderables - Oyameles,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas19,Maderables - Pinos,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas20,Maderables - Otro tipo de maderables,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas21,Maderables - Maderables no identificadas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas22,Copales (burseras),SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas23,"Lirios, lilas",SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas24,Orquídeas,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas25,Pata de elefante (beaucarnea recurvata),SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas26,Tulipanes,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+espeas27,Otro tipo de especies de flora,SECC IV. 27,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

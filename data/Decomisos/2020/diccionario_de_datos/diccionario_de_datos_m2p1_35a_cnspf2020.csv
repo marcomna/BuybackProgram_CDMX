@@ -1,0 +1,14 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_a,Entidad federativa,SECC I. 1.35,Numérico,2,1 al 99
+metuni1,Total - Kilogramos,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni2,Total - Piezas,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni3,Barras de oro - Kilogramos,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni4,Barras de oro - Piezas,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni5,Lingotes de plata - Kilogramos,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni6,Lingotes de plata - Piezas,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni7,Monedas de plata - Kilogramos,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni8,Monedas de plata - Piezas,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni9,Onzas de Plata - Kilogramos,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni10,Onzas de Plata - Piezas,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni11,Plata - Kilogramos,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metuni12,Plata - Piezas,SECC I. 1.35,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

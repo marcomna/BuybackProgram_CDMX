@@ -1,0 +1,5 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+tipfauna_a,Tipos de especies de fauna,SECC IV. 29,Numérico,4,1101 al 3000
+rensnp1,Realizó el aseguramiento del tipo de especies de fauna,SECC IV. 29,Numérico,2,0 al 98
+unidmedi_f,Unidad de medida para su contabilización,SECC IV. 29,Numérico,2,0 al 98
+totalca1,Cantidad de especies de fauna asegurada,SECC IV. 29,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

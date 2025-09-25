@@ -1,0 +1,834 @@
+﻿"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: TRASLADO.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los traslados realizados, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,TOTALCA1,SECC I. 1,"La cantidad de traslados realizados por la Policía Federal, durante el año 2018.",Carácter,20,,,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: TRASL_PF.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los traslados realizados, según entidad federativa donde se realizaron, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 2,"Clasificación de la Policía Federal de acuerdo con los traslados realizados, según entidad federativa donde se realizaron, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,TOTALCA1,SECC I. 2,"La cantidad de traslados realizados por la Policía Federal, según entidad federativa donde se realizaron, durante el año 2018.",Carácter,20,,,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: ACC_AUTO.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las acciones realizadas en colaboración con autoridades nacionales, según entidad federativa de ocurrencia y tipo de autoridad que efectuó la solicitud, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 3,"Clasificación de la Policía Federal de acuerdo con las acciones realizadas en colaboración con autoridades nacionales, según entidad federativa de ocurrencia, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,AUTORNTT,SECC I. 3,"La cantidad de acciones realizadas por la Policía Federal en colaboración con autoridades nacionales, según entidad federativa de ocurrencia y tipo de autoridad que efectuó la solicitud, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,AUTORN1,,,Carácter,20,,Gobierno estatal,"0-999999999999999, NA, NSS, ND, NULL"
+4,AUTORN2,,,Carácter,20,,Gobiernos municipales,"0-999999999999999, NA, NSS, ND, NULL"
+5,AUTORN3,,,Carácter,20,,Procuraduría General de la República (PGR),"0-999999999999999, NA, NSS, ND, NULL"
+6,AUTORN4,,,Carácter,20,,Secretaría de la Defensa Nacional (SEDENA),"0-999999999999999, NA, NSS, ND, NULL"
+7,AUTORN5,,,Carácter,20,,Secretaría de Marina (SEMAR),"0-999999999999999, NA, NSS, ND, NULL"
+8,AUTORN6,,,Carácter,20,,Autoridades aduaneras,"0-999999999999999, NA, NSS, ND, NULL"
+9,AUTORN7,,,Carácter,20,,Otras autoridades,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: PER_ASEG.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo las personas aseguradas por la comisión de hechos probablemente delictivos, según sexo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,SEXOIDTT,SECC I. 4,"La cantidad de personas aseguradas por la Policía Federal por la comisión de hechos probablemente delictivos, según sexo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+2,SEXOID1,,,Carácter,20,,Hombres,"0-999999999999999, NA, NSS, ND, NULL"
+3,SEXOID2,,,Carácter,20,,Mujeres,"0-999999999999999, NA, NSS, ND, NULL"
+4,SEXOID3,,,Carácter,20,,No identificado,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: ASEG_PRO.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las personas aseguradas por la comisión de hechos probablemente delictivos, según procedencia y sexo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,TIPROCED,SECC I. 5,"Clasificación de la Policía Federal de acuerdo con las personas aseguradas por la comisión de hechos probablemente delictivos, según procedencia, durante el año 2018.",Numérico,1,1,Nacionales,
+,,,,,,2,Extranjeros,
+,,,,,,9,No especificados,
+2,SEXOIDTT,SECC I. 5,"La cantidad de personas aseguradas por la Policía Federal por la comisión de hechos probablemente delictivos, según procedencia y sexo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,SEXOID1,,,Carácter,20,,Hombres,"0-999999999999999, NA, NSS, ND, NULL"
+4,SEXOID2,,,Carácter,20,,Mujeres,"0-999999999999999, NA, NSS, ND, NULL"
+5,SEXOID3,,,Carácter,20,,No identificado,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: ASEG_EDA.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las personas aseguradas por la comisión de hechos probablemente delictivos, según rango de edad y sexo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,EDAD_RAN,SECC I. 6,"Clasificación de la Policía Federal de acuerdo las personas aseguradas por la comisión de hechos probablemente delictivos, según rango de edad, durante el año 2018.",Numérico,2,1,De 12 a 14 años,
+,,,,,,2,De 15 a 17 años,
+,,,,,,3,De 18 a 19 años,
+,,,,,,4,De 20 a 24 años,
+,,,,,,5,De 25 a 29 años,
+,,,,,,6,De 30 a 34 años,
+,,,,,,7,De 35 a 39 años,
+,,,,,,8,De 40 a 44 años,
+,,,,,,9,De 45 a 49 años,
+,,,,,,10,De 50 a 54 años,
+,,,,,,11,De 55 a 59 años,
+,,,,,,12,De 60 años y más,
+,,,,,,13,No identificado,
+,,,,,,99,No especificado,
+2,SEXOIDTT,SECC I. 6,"La cantidad de personas aseguradas por la Policía Federal por la comisión de hechos probablemente delictivos, según rango de edad y sexo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,SEXOID1,,,Carácter,20,,Hombres,"0-999999999999999, NA, NSS, ND, NULL"
+4,SEXOID2,,,Carácter,20,,Mujeres,"0-999999999999999, NA, NSS, ND, NULL"
+5,SEXOID3,,,Carácter,20,,No identificado,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: HECHDELI.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las personas aseguradas por la comisión de hechos probablemente delictivos, según hecho, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,HECDELIT,SECC I. 7,"Clasificación de la Policía Federal de acuerdo con las personas aseguradas por la comisión de hechos probablemente delictivos, según hecho, durante el año 2018.",Numérico,1,1,Secuestro,
+,,,,,,2,Posesión de narcóticos,
+,,,,,,3,Extorsión,
+,,,,,,4,Homicidio doloso,
+,,,,,,5,Posesión de armas,
+,,,,,,6,Trata de personas,
+,,,,,,7,Tráfico de personas,
+,,,,,,8,"Delitos en materia de hidrocarburos (Sustracción, alteración y aprovechamiento de hidrocarburos)",
+,,,,,,9,Delitos ambientales,
+2,TOTALCA1,SECC I. 7,"La cantidad de personas aseguradas por la Policía Federal por la comisión de hechos probablemente delictivos, según hecho, durante el año 2018.",Carácter,20,,,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: ASEG_SEX.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las personas aseguradas por la comisión de hechos probablemente delictivos, según entidad federativa del aseguramiento y sexo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 8,"Clasificación de la Policía Federal de acuerdo con las personas aseguradas por la comisión de hechos probablemente delictivos, según entidad federativa del aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,SEXOIDTT,SECC I. 8,"La cantidad de personas aseguradas por la Policía Federal por la comisión de hechos probablemente delictivos, según entidad federativa del aseguramiento y sexo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,SEXOID1,,,Carácter,20,,Hombres,"0-999999999999999, NA, NSS, ND, NULL"
+4,SEXOID2,,,Carácter,20,,Mujeres,"0-999999999999999, NA, NSS, ND, NULL"
+5,SEXOID3,,,Carácter,20,,No identificado,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: ARM_ASEG.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las armas de fuego, municiones y explosivos asegurados, según tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ARMEXP1,SECC I. 9,"La cantidad de armas de fuego, municiones y explosivos asegurados por la Policía Federal, según tipo, durante el año 2018.",Carácter,20,,Armas de fuego - Total,"0-999999999999999, NA, NSS, ND, NULL"
+2,ARMEXP2,,,Carácter,20,,Armas de fuego - Largas,"0-999999999999999, NA, NSS, ND, NULL"
+3,ARMEXP3,,,Carácter,20,,Armas de fuego - Cortas,"0-999999999999999, NA, NSS, ND, NULL"
+4,ARMEXP5,,,Carácter,20,,Lanzagranadas / lanzacohetes,"0-999999999999999, NA, NSS, ND, NULL"
+5,ARMEXP6,,,Carácter,20,,Granadas,"0-999999999999999, NA, NSS, ND, NULL"
+6,ARMEXP7,,,Carácter,20,,Cartuchos,"0-999999999999999, NA, NSS, ND, NULL"
+7,ARMEXP8,,,Carácter,20,,Cargadores,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: ARMS_ENT.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las armas de fuego, municiones y explosivos asegurados, según la entidad federativa donde se llevo a cabo el aseguramiento y tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 10,"Clasificación de la Policía Federal de acuerdo con las armas de fuego, municiones y explosivos asegurados, según la entidad federativa donde se llevo a cabo el aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,ARMEXP1,SECC I. 10,"La cantidad de armas de fuego, municiones y explosivos asegurados por la Policía Federal, según la entidad federativa donde se llevo a cabo el aseguramiento y tipo, durante el año 2018.",Carácter,20,,Armas de fuego - Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,ARMEXP2,,,Carácter,20,,Armas de fuego - Largas,"0-999999999999999, NA, NSS, ND, NULL"
+4,ARMEXP3,,,Carácter,20,,Armas de fuego - Cortas,"0-999999999999999, NA, NSS, ND, NULL"
+5,ARMEXP5,,,Carácter,20,,Lanzagranadas / lanzacohetes,"0-999999999999999, NA, NSS, ND, NULL"
+6,ARMEXP6,,,Carácter,20,,Granadas,"0-999999999999999, NA, NSS, ND, NULL"
+7,ARMEXP7,,,Carácter,20,,Cartuchos,"0-999999999999999, NA, NSS, ND, NULL"
+8,ARMEXP8,,,Carácter,20,,Cargadores,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: HIDROCAR.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los hidrocarburos asegurados, según su tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,HIDROC1,SECC I. 11,"La cantidad de hidrocarburos asegurados por la Policía Federal, según su tipo, durante el año 2018.",Carácter,20,,Diésel (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+2,HIDROC2,,,Carácter,20,,Gasolina (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+3,HIDROC3,,,Carácter,20,,Gas LP (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+4,HIDROC4,,,Carácter,20,,Combustóleo (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+5,HIDROC5,,,Carácter,20,,Otros (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: HIDROENT.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los hidrocarburos asegurados, según la entidad federativa donde se llevó acabo el aseguramiento y tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 12,"Clasificación de la Policía Federal de acuerdo con los hidrocarburos asegurados, según la entidad federativa donde se llevó acabo el aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,HIDROC1,SECC I. 12,"La cantidad de hidrocarburos asegurados por la Policía Federal, según la entidad federativa donde se llevó acabo el aseguramiento y tipo, durante el año 2018.",Carácter,20,,Diésel (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+3,HIDROC2,,,Carácter,20,,Gasolina (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+4,HIDROC3,,,Carácter,20,,Gas LP (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+5,HIDROC4,,,Carácter,20,,Combustóleo (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+6,HIDROC5,,,Carácter,20,,Otros (Litros),"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: PROBNARC.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los probables narcóticos asegurados (cocaína, mariguana y amapola), según tipo y unidad de medida, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,CMANAR1,SECC I. 13,"La cantidad de probables narcóticos (cocaína, mariguana y amapola) asegurados por la Policía Federal, según tipo y unidad de medida, durante el año 2018.",Carácter,20,,Cocaína (kilogramos),"0-999999999999999, NA, NSS, ND, NULL"
+2,CMANAR2,,,Carácter,20,,Mariguana (kilogramos) - Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,CMANAR3,,,Carácter,20,,Mariguana (kilogramos) - Tipo de producción - Mariguana,"0-999999999999999, NA, NSS, ND, NULL"
+4,CMANAR4,,,Carácter,20,,Mariguana (kilogramos) - Tipo de producción - Hojas,"0-999999999999999, NA, NSS, ND, NULL"
+5,CMANAR5,,,Carácter,20,,Mariguana (kilogramos) - Tipo de producción - Hachís,"0-999999999999999, NA, NSS, ND, NULL"
+6,CMANAR6,,,Carácter,20,,Mariguana (kilogramos) - Tipo de producción - Semillas,"0-999999999999999, NA, NSS, ND, NULL"
+7,CMANAR8,,,Carácter,20,,Amapola (kilogramos) - Total,"0-999999999999999, NA, NSS, ND, NULL"
+8,CMANAR9,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Amapola,"0-999999999999999, NA, NSS, ND, NULL"
+9,CMANAR10,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Semillas,"0-999999999999999, NA, NSS, ND, NULL"
+10,CMANAR11,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Goma de opio,"0-999999999999999, NA, NSS, ND, NULL"
+11,CMANAR12,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Goma de amapola,"0-999999999999999, NA, NSS, ND, NULL"
+12,CMANAR13,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Heroína,"0-999999999999999, NA, NSS, ND, NULL"
+13,CMANAR14,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Morfina,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: PRO_NARC.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los probables narcóticos asegurados (LSD, MDA, Metilendioxianfetamina, Metanfetamina, Psicotrópicos), según tipo y unidad de medida, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,LMPNAR1,SECC I. 13,"La cantidad de probables narcóticos (LSD, MDA, Metilendioxianfetamina, Metanfetamina, Psicotrópicos) asegurados por la Policía Federal, según tipo y unidad de medida, durante el año 2018.",Carácter,20,,Lisergida (LSD) (kilogramos),"0-999999999999999, NA, NSS, ND, NULL"
+2,LMPNAR2,,,Carácter,20,,"MDA, Metilendioxianfetamina - Kilogramos","0-999999999999999, NA, NSS, ND, NULL"
+3,LMPNAR3,,,Carácter,20,,"MDA, Metilendioxianfetamina - Unidades (tableta o cápsula)","0-999999999999999, NA, NSS, ND, NULL"
+4,LMPNAR4,,,Carácter,20,,Metanfetamina - Kilogramos,"0-999999999999999, NA, NSS, ND, NULL"
+5,LMPNAR5,,,Carácter,20,,Metanfetamina - Unidades (tableta o cápsula),"0-999999999999999, NA, NSS, ND, NULL"
+6,LMPNAR6,,,Carácter,20,,Psicotrópicos - Unidades (tableta o cápsula),"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: PRNAC_EN.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los probables narcóticos asegurados (cocaína, mariguana y amapola), según entidad federativa donde se llevo a cabo el aseguramiento, tipo y unidad de medida, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 14,"Clasificación de la Policía Federal de acuerdo con los probables narcóticos asegurados (cocaína, mariguana y amapola), según entidad federativa donde se llevo a cabo el aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,CMANAR1,SECC I. 14,"La cantidad de probables narcóticos (cocaína, mariguana, amapola) asegurados por la Policía Federal, según entidad federativa donde se llevo a cabo el aseguramiento, tipo y unidad de medida, durante el año 2018.",Carácter,20,,Cocaína (kilogramos),"0-999999999999999, NA, NSS, ND, NULL"
+3,CMANAR2,,,Carácter,20,,Mariguana (kilogramos) - Total,"0-999999999999999, NA, NSS, ND, NULL"
+4,CMANAR3,,,Carácter,20,,Mariguana (kilogramos) - Tipo de producción - Mariguana,"0-999999999999999, NA, NSS, ND, NULL"
+5,CMANAR4,,,Carácter,20,,Mariguana (kilogramos) - Tipo de producción - Hojas,"0-999999999999999, NA, NSS, ND, NULL"
+6,CMANAR5,,,Carácter,20,,Mariguana (kilogramos) - Tipo de producción - Hachís,"0-999999999999999, NA, NSS, ND, NULL"
+7,CMANAR6,,,Carácter,20,,Mariguana (kilogramos) - Tipo de producción - Semillas,"0-999999999999999, NA, NSS, ND, NULL"
+8,CMANAR8,,,Carácter,20,,Amapola (kilogramos) - Total,"0-999999999999999, NA, NSS, ND, NULL"
+9,CMANAR9,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Amapola,"0-999999999999999, NA, NSS, ND, NULL"
+10,CMANAR10,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Semillas,"0-999999999999999, NA, NSS, ND, NULL"
+11,CMANAR11,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Goma de opio,"0-999999999999999, NA, NSS, ND, NULL"
+12,CMANAR12,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Goma de amapola,"0-999999999999999, NA, NSS, ND, NULL"
+13,CMANAR13,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Heroína,"0-999999999999999, NA, NSS, ND, NULL"
+14,CMANAR14,,,Carácter,20,,Amapola (kilogramos) - Tipo de producción - Morfina,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: PRONACEN.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los probables narcóticos asegurados (LSD, MDA, Metilendioxianfetamina, Metanfetamina, Psicotrópicos), según entidad federativa donde se llevó a cabo el aseguramiento, tipo y unidad de medida, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 14,"Clasificación de la Policía Federal de acuerdo con los probables narcóticos asegurados (LSD, MDA, Metilendioxianfetamina, Metanfetamina, Psicotrópicos), según entidad federativa donde se llevó a cabo el aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,LMPNAR1,SECC I. 14,"La cantidad de probables narcóticos (LSD, MDA, Metilendioxianfetamina, Metanfetamina, Psicotrópicos) asegurados por la Policía Federal, según entidad federativa donde se llevó a cabo el aseguramiento, tipo y unidad de medida, durante el año 2018.",Carácter,20,,Lisergida (LSD) (kilogramos),"0-999999999999999, NA, NSS, ND, NULL"
+3,LMPNAR2,,,Carácter,20,,"MDA, Metilendioxianfetamina - Kilogramos","0-999999999999999, NA, NSS, ND, NULL"
+4,LMPNAR3,,,Carácter,20,,"MDA, Metilendioxianfetamina - Unidades (tableta o cápsula)","0-999999999999999, NA, NSS, ND, NULL"
+5,LMPNAR4,,,Carácter,20,,Metanfetamina - Kilogramos,"0-999999999999999, NA, NSS, ND, NULL"
+6,LMPNAR5,,,Carácter,20,,Metanfetamina - Unidades (tableta o cápsula),"0-999999999999999, NA, NSS, ND, NULL"
+7,LMPNAR6,,,Carácter,20,,Psicotrópicos - Unidades (tableta o cápsula),"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: VEHIASEG.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los vehículos asegurados, según su estatus y tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ESTATUSR,SECC I. 15,"Clasificación de la Policía Federal de acuerdo con los vehículos asegurados, según su estatus, durante el año 2018.",Numérico,1,1,Con reporte de robo,
+,,,,,,2,Sin reporte de robo,
+,,,,,,9,No especificado,
+2,TIVEHITT,SECC I. 15,"La cantidad de vehículos asegurados por la Policía Federal, según su estatus y tipo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,TIVEHI1,,,Carácter,20,,Terrestres,"0-999999999999999, NA, NSS, ND, NULL"
+4,TIVEHI2,,,Carácter,20,,Aéreos,"0-999999999999999, NA, NSS, ND, NULL"
+5,TIVEHI3,,,Carácter,20,,Marítimos,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: VEHI_ENT.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los vehículos asegurados, según entidad federativa donde se llevó a cabo el aseguramiento, tipo y estatus, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 16,"Clasificación de la Policía Federal de acuerdo con los vehículos asegurados, según entidad federativa donde se llevó a cabo el aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,VEHROBTT,SECC I. 16,"La cantidad de vehículos asegurados por la Policía Federal, según entidad federativa donde se llevó a cabo el aseguramiento, tipo y estatus, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,VEHROB1,,,Carácter,20,,Con reporte de robo,"0-999999999999999, NA, NSS, ND, NULL"
+4,VEHROB2,,,Carácter,20,,Sin reporte de robo,"0-999999999999999, NA, NSS, ND, NULL"
+5,VEHROB3,,,Carácter,20,,Terrestres - Con reporte de robo,"0-999999999999999, NA, NSS, ND, NULL"
+6,VEHROB4,,,Carácter,20,,Terrestres - Sin reporte de robo,"0-999999999999999, NA, NSS, ND, NULL"
+7,VEHROB5,,,Carácter,20,,Aéreos - Con reporte de robo,"0-999999999999999, NA, NSS, ND, NULL"
+8,VEHROB6,,,Carácter,20,,Aéreos - Sin reporte de robo,"0-999999999999999, NA, NSS, ND, NULL"
+9,VEHROB7,,,Carácter,20,,Marítimos - Con reporte de robo,"0-999999999999999, NA, NSS, ND, NULL"
+10,VEHROB8,,,Carácter,20,,Marítimos - Sin reporte de robo,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: METALMED.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los bienes asegurados (metales), según unidad de medida y tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,UNIMEDID,SECC I. 17,"Clasificación de la Policía Federal de acuerdo con los bienes asegurados (metales), según unidad de medida, durante el año 2018.",Numérico,1,1,Piezas,
+,,,,,,2,Kilos,
+2,METALETT,SECC I. 17,"La cantidad de bienes asegurados (metales) por la Policía Federal, según unidad de medida y tipo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,METALE1,,,Carácter,20,,Barras de oro,"0-999999999999999, NA, NSS, ND, NULL"
+4,METALE2,,,Carácter,20,,Lingotes de plata,"0-999999999999999, NA, NSS, ND, NULL"
+5,METALE3,,,Carácter,20,,Monedas de plata,"0-999999999999999, NA, NSS, ND, NULL"
+6,METALE4,,,Carácter,20,,Onzas de plata,"0-999999999999999, NA, NSS, ND, NULL"
+7,METALE5,,,Carácter,20,,Plata,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: DINE_FAU.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los bienes asegurados (dinero y fauna), según tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,DINFAU1,SECC I. 17,"La cantidad de bienes asegurados (dinero y fauna) por la Policía Federal, según tipo, durante el año 2018.",Carácter,20,,Dinero - Nacional (Pesos),"0-999999999999999, NA, NSS, ND, NULL"
+2,DINFAU2,,,Carácter,20,,Dinero - Extranjero - Dólares,"0-999999999999999, NA, NSS, ND, NULL"
+3,DINFAU3,,,Carácter,20,,Dinero - Extranjero - Euros,"0-999999999999999, NA, NSS, ND, NULL"
+4,DINFAU4,,,Carácter,20,,Dinero - Extranjero - Yenes,"0-999999999999999, NA, NSS, ND, NULL"
+5,DINFAU5,,,Carácter,20,,Fauna (Ejemplares) - Ganado,"0-999999999999999, NA, NSS, ND, NULL"
+6,DINFAU6,,,Carácter,20,,Fauna (Ejemplares) - Fauna silvestre,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: EQCOMUNI.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los bienes asegurados (equipos de comunicación), según tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,COMUNITT,SECC I. 17,"La cantidad de bienes asegurados (equipo de comunicación) por la Policía Federal, según tipo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+2,COMUNI1,,,Carácter,20,,Equipos de comunicación (Piezas) - Celulares,"0-999999999999999, NA, NSS, ND, NULL"
+3,COMUNI2,,,Carácter,20,,Equipos de comunicación (Piezas) - Antenas,"0-999999999999999, NA, NSS, ND, NULL"
+4,COMUNI3,,,Carácter,20,,Equipos de comunicación (Piezas) - Equipos de radiocomunicación,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: META_ENT.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los bienes asegurados (metales), según la entidad federativa donde se llevó a cabo el aseguramiento, tipo y unidad de medida, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 18,"Clasificación de la Policía Federal de acuerdo con los bienes asegurados (metales), según la entidad federativa donde se llevó a cabo el aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,METMED1,SECC I. 18,"La cantidad de bienes asegurados (metales) por la Policía Federal, según la entidad federativa donde se llevó a cabo el aseguramiento, tipo y unidad de medida, durante el año 2018.",Carácter,20,,Total - Kilos,"0-999999999999999, NA, NSS, ND, NULL"
+3,METMED2,,,Carácter,20,,Total - Piezas,"0-999999999999999, NA, NSS, ND, NULL"
+4,METMED3,,,Carácter,20,,Barras de oro - Kilos,"0-999999999999999, NA, NSS, ND, NULL"
+5,METMED4,,,Carácter,20,,Barras de oro - Piezas,"0-999999999999999, NA, NSS, ND, NULL"
+6,METMED5,,,Carácter,20,,Lingotes de plata - Kilos,"0-999999999999999, NA, NSS, ND, NULL"
+7,METMED6,,,Carácter,20,,Lingotes de plata - Piezas,"0-999999999999999, NA, NSS, ND, NULL"
+8,METMED7,,,Carácter,20,,Monedas de plata - Kilos,"0-999999999999999, NA, NSS, ND, NULL"
+9,METMED8,,,Carácter,20,,Monedas de plata - Piezas,"0-999999999999999, NA, NSS, ND, NULL"
+10,METMED9,,,Carácter,20,,Onzas de Plata - Kilos,"0-999999999999999, NA, NSS, ND, NULL"
+11,METMED10,,,Carácter,20,,Onzas de Plata - Piezas,"0-999999999999999, NA, NSS, ND, NULL"
+12,METMED11,,,Carácter,20,,Plata - Kilos,"0-999999999999999, NA, NSS, ND, NULL"
+13,METMED12,,,Carácter,20,,Plata - Piezas,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: DIFAU_EN.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los bienes asegurados (dinero y fauna), según la entidad federativa donde se llevó a cabo el aseguramiento y tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 18,"Clasificación de la Policía Federal de acuerdo con los bienes asegurados (dinero y fauna), según la entidad federativa donde se llevó a cabo el aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,DINFAU1,SECC I. 18,"La cantidad de bienes asegurados (dinero y fauna) por la Policía Federal, según la entidad federativa donde se llevó a cabo el aseguramiento y tipo, durante el año 2018.",Carácter,20,,Dinero - Nacional (Pesos),"0-999999999999999, NA, NSS, ND, NULL"
+3,DINFAU2,,,Carácter,20,,Dinero - Extranjero - Dólares,"0-999999999999999, NA, NSS, ND, NULL"
+4,DINFAU3,,,Carácter,20,,Dinero - Extranjero - Euros,"0-999999999999999, NA, NSS, ND, NULL"
+5,DINFAU4,,,Carácter,20,,Dinero - Extranjero - Yenes,"0-999999999999999, NA, NSS, ND, NULL"
+6,DINFAU5,,,Carácter,20,,Fauna (Ejemplares) - Ganado,"0-999999999999999, NA, NSS, ND, NULL"
+7,DINFAU6,,,Carácter,20,,Fauna (Ejemplares) - Fauna silvestre,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: EQCOM_EN.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con los bienes asegurados (equipos de comunicación), según la entidad federativa donde se llevó a cabo el aseguramiento y tipo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 18,"Clasificación de la Policía Federal de acuerdo con los bienes asegurados (equipos de comunicación), según la entidad federativa donde se llevó a cabo el aseguramiento, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,COMUNITT,SECC I. 18,"La cantidad de bienes asegurados (equipos de comunicación) por la Policía Federal, según la entidad federativa donde se llevó a cabo el aseguramiento y tipo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,COMUNI1,,,Carácter,20,,Equipos de comunicación (Piezas) - Celulares,"0-999999999999999, NA, NSS, ND, NULL"
+4,COMUNI2,,,Carácter,20,,Equipos de comunicación (Piezas) - Antenas,"0-999999999999999, NA, NSS, ND, NULL"
+5,COMUNI3,,,Carácter,20,,Equipos de comunicación (Piezas) - Equipos de radiocomunicación,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: PERLOCAL.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las personas localizadas, según su sexo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,SEXOIDTT,SECC I. 19,"La cantidad de personas localizadas por la Policía Federal, según su sexo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+2,SEXOID1,,,Carácter,20,,Hombres,"0-999999999999999, NA, NSS, ND, NULL"
+3,SEXOID2,,,Carácter,20,,Mujeres,"0-999999999999999, NA, NSS, ND, NULL"
+4,SEXOID3,,,Carácter,20,,No identificado,"0-999999999999999, NA, NSS, ND, NULL"
+,,,,,,,,
+"Censo Nacional de Seguridad Pública Federal 2019
+Módulo 2: Seguridad Pública Federal
+Tema: Ejercicio de la función de seguridad pública federal",,,,,,,,
+"Archivo: PERLOCEN.dbf (Contiene variables que caracterizan a la Policía Federal de acuerdo con las personas localizadas, según entidad federativa donde se registró su localización y sexo, durante el año 2018.)",,,,,,,,
+"Núm.de 
+campo","Nombre de 
+la columna",Origen,Descripción,"Tipo de 
+dato",Longitud,Códigos válidos en la columna,,"Rango
+(Los valores NA, NSS y ND equivalen a No aplica, No se sabe y No disponible, respectivamente)"
+1,ENTIDAD,SECC I. 20,"Clasificación de la Policía Federal de acuerdo con las personas localizadas, según entidad federativa donde se registró su localización, durante el año 2018.",Carácter,2,01,Aguascalientes,
+,,,,,,02,Baja California,
+,,,,,,03,Baja California Sur,
+,,,,,,04,Campeche,
+,,,,,,05,Coahuila de Zaragoza,
+,,,,,,06,Colima,
+,,,,,,07,Chiapas,
+,,,,,,08,Chihuahua,
+,,,,,,09,Ciudad de México,
+,,,,,,10,Durango,
+,,,,,,11,Guanajuato,
+,,,,,,12,Guerrero,
+,,,,,,13,Hidalgo,
+,,,,,,14,Jalisco,
+,,,,,,15,México,
+,,,,,,16,Michoacán de Ocampo,
+,,,,,,17,Morelos,
+,,,,,,18,Nayarit,
+,,,,,,19,Nuevo León,
+,,,,,,20,Oaxaca,
+,,,,,,21,Puebla,
+,,,,,,22,Querétaro,
+,,,,,,23,Quintana Roo,
+,,,,,,24,San Luis Potosí,
+,,,,,,25,Sinaloa,
+,,,,,,26,Sonora,
+,,,,,,27,Tabasco,
+,,,,,,28,Tamaulipas,
+,,,,,,29,Tlaxcala,
+,,,,,,30,Veracruz de Ignacio de la Llave,
+,,,,,,31,Yucatán,
+,,,,,,32,Zacatecas,
+,,,,,,99,No especificado,
+2,SEXOIDTT,SECC I. 20,"La cantidad de personas localizadas por la Policía Federal, según entidad federativa donde se registró su localización y sexo, durante el año 2018.",Carácter,20,,Total,"0-999999999999999, NA, NSS, ND, NULL"
+3,SEXOID1,,,Carácter,20,,Hombres,"0-999999999999999, NA, NSS, ND, NULL"
+4,SEXOID2,,,Carácter,20,,Mujeres,"0-999999999999999, NA, NSS, ND, NULL"
+5,SEXOID3,,,Carácter,20,,No identificado,"0-999999999999999, NA, NSS, ND, NULL"

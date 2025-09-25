@@ -1,0 +1,5 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+mercpira_a,Tipo de mercancía apócrifa o pirata,SECC I 1.32,Numérico,2,1 al 25
+rensnn1,Realización de aseguramientos de mercancía apócrifa o pirata,SECC I 1.32,Numérico,2,0 al 98
+unidmedi_a,Unidad de medida para su contabilización,SECC I 1.32,Numérico,2,0 al 98
+totalca1,Mercancía apócrifa o pirata asegurada,SECC I 1.32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

@@ -1,0 +1,6 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+parfauna_a,Tipos de partes y/ o productos de especies de fauna,SECC IV. 30,Numérico,2,1 al 18
+rnsnni1,Realización de aseguramientos del tipo de partes y/o productos de especies de fauna,SECC IV. 30,Numérico,2,0 al 98
+florum1,Ejemplares o unidades,SECC IV. 30,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+florum2,Kilogramos (únicamente desagregue dos decimales),SECC IV. 30,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+florum4,Otra unidad de medida,SECC IV. 30,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

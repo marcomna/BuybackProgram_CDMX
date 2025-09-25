@@ -1,0 +1,12 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_e,Entidad federativa,SECC IV. 20,Numérico,2,1 al 99
+voluum1,Oro - Kilogramos,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum2,Oro - Lingotes,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum3,Oro - Monedas,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum4,Oro - Onzas,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum5,Plata - Kilogramos,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum6,Plata - Lingotes,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum7,Plata - Monedas,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum8,Plata - Onzas,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum9,Platino (kilogramos),SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+voluum10,Paladio (kilogramos),SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

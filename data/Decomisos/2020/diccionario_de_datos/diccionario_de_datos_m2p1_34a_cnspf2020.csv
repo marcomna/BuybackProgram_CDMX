@@ -1,0 +1,8 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+unidmedi_c,Unidad de medida,SECC I. 1.34,Numérico,1,1 al 9
+metalett,Total,SECC I. 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metale1,Barras de oro,SECC I. 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metale2,Lingotes de plata,SECC I. 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metale3,Monedas de plata,SECC I. 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metale4,Onzas de plata,SECC I. 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+metale5,Plata,SECC I. 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

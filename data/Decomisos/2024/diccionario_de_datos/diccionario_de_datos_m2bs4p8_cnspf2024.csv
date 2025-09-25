@@ -1,0 +1,7 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 8,Carácter,4,0-5000
+enticve1,Clave de Entidad federativa,SECC IV. 8,Carácter,2500,
+entifed1,Nombre de Entidad federativa,SECC IV. 8,Carácter,2500,
+municve1,Clave de Municipio o demarcación territorial,SECC IV. 8,Carácter,2500,
+municip1,Nombre de Municipio o demarcación territorial,SECC IV. 8,Carácter,2500,
+totalca1,Tomas clandestinas de hidrocarburos aseguradas,SECC IV. 8,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

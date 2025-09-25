@@ -1,0 +1,6 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+tipfauna_a,Tipos de especies de fauna,SECC IV. 28,Numérico,4,1101 al 3000
+rnsnni1,Realizó el aseguramiento del tipo de especies de fauna,SECC IV. 28,Numérico,2,0 al 98
+florum1,Ejemplares o unidades,SECC IV. 28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+florum2,Kilogramos (únicamente desagregue dos decimales),SECC IV. 28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+florum4,Otra unidad de medida,SECC IV. 28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

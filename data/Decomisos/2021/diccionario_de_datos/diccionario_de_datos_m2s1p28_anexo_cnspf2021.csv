@@ -1,0 +1,27 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+ubicageo_d,Municipio,SECC I 1.28,Numérico,5,0 al 32999
+entidad_c,Entidad federativa,SECC I 1.28,Numérico,2,1 al 99
+entifed1,Nombre de Entidad federativa,SECC I 1.28,Carácter,2500,
+municip1,Nombre de Municipio o demarcación territorial,SECC I 1.28,Carácter,2500,
+tinaum1,Cocaína (en kilogramos),SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum2,"Cannabis sativa, indica o mariguana (en kilogramos) - Total",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum3,"Cannabis sativa, indica o mariguana (en kilogramos) - Tipo de producción - Hojas",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum4,"Cannabis sativa, indica o mariguana (en kilogramos) - Tipo de producción - Hashis",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum5,"Cannabis sativa, indica o mariguana (en kilogramos) - Tipo de producción - Semillas",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum6,"Cannabis sativa, indica o mariguana (en kilogramos) - Tipo de producción - Plantas",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum8,Amapola adormidera (opiáceos) (en kilogramos) - Total,SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum9,Amapola adormidera (opiáceos) (en kilogramos) - Tipo de producción - Semillas,SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum10,Amapola adormidera (opiáceos) (en kilogramos) - Tipo de producción - Goma,SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum11,Amapola adormidera (opiáceos) (en kilogramos) - Tipo de producción - Heroína,SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum12,Amapola adormidera (opiáceos) (en kilogramos) - Tipo de producción - Morfina,SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum13,Amapola adormidera (opiáceos) (en kilogramos) - Tipo de producción - Plantas y/o bulbos,SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum15,Lisergida (LSD) (en kilogramos),SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum16,"MDA, Metilendioxianfetamina - Total en kilogramos",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum17,"MDA, Metilendioxianfetamina - Total por unidad (tableta o cápsula)",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum18,"MDMA, dl-34-metilendioxi-n-dimetilfeniletilamina - Total en kilogramos",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum19,"MDMA, dl-34-metilendioxi-n-dimetilfeniletilamina - Total por unidad (tableta o cápsula)",SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum20,Metanfetamina - Total en kilogramos,SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum21,Metanfetamina - Total por unidad (tableta o cápsula),SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum22,Psicotrópicos (tableta o cápsula),SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum23,Fentanilo - Total en kilogramos,SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+tinaum24,Fentanilo - Total por unidad (tableta o cápsula),SECC I 1.28,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

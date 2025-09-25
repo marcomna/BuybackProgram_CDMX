@@ -1,0 +1,8 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+dinfau1,Dinero - Nacional (pesos),SECC I 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+dinfau2,Dinero - Extranjero - Dólares,SECC I 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+dinfau3,Dinero - Extranjero - Euros,SECC I 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+dinfau4,Dinero - Extranjero - Yenes,SECC I 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+dinfau5,Dinero - Extranjero - Otras denominaciones,SECC I 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+dinfau6,Fauna - Ganado,SECC I 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+dinfau7,Fauna - Fauna silvestre,SECC I 1.34,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

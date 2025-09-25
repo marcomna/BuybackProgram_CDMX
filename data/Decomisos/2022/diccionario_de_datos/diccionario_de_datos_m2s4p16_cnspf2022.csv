@@ -1,0 +1,5 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+mercpira_b,Tipo de mercancía apócrifa o pirata,SECC IV. 16,Numérico,2,1 al 28
+rensnp1,Realización de aseguramiento de mercancía apócrifa o pirata,SECC IV. 16,Numérico,2,0 al 98
+unidmedi_d,Unidad de medida para su contabilización,SECC IV. 16,Numérico,2,0 al 98
+totalca1,Cantidad de mercancía apócrifa o pirata asegurada,SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

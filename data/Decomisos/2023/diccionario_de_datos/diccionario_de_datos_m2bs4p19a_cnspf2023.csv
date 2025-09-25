@@ -1,0 +1,4 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+umetalpr_a,Unidades específicas de metales preciosos,SECC IV. 19,Numérico,1,1 al 6
+rnsnni1,Realización del aseguramiento de la unidad específica de metales preciosos,SECC IV. 19,Numérico,2,0 al 98
+totalca1,Cantidad de unidades específicas de metales preciosos aseguradas (en piezas o unidades),SECC IV. 19,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

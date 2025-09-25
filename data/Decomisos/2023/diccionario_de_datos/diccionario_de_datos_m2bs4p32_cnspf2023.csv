@@ -1,0 +1,24 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 32,Carácter,4,0-5000
+enticve1,Entidad federativa - Clave,SECC IV. 32,Carácter,2500,
+entifed1,Entidad federativa - Nombre,SECC IV. 32,Carácter,2500,
+municve1,Municipio o demarcación territorial - Clave,SECC IV. 32,Carácter,2500,
+municip1,Municipio o demarcación territorial - Nombre,SECC IV. 32,Carácter,2500,
+pfaseg1,Buche de totoaba / corvina,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg2,Camarón seco,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg3,Colmillos de elefante,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg4,Costillas o vértebras de ballena,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg5,Cuernos de rinoceronte,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg6,Dientes de león,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg7,Escamas de pescado,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg8,Filetes de pescado,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg9,Huevos de tortuga,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg10,Lonjas o medallones de atún,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg11,Lonjas o medallones de calamar / pulpo,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg12,Pescado eviscerado,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg13,Pieles preciosas,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg14,Pulpa de almeja,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg15,Pulpa de jaiba,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg16,Tentáculos de calamar / pulpo,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg17,Tiburón congelado,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+pfaseg18,Otro tipo de partes y/o productos de especies de fauna,SECC IV. 32,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

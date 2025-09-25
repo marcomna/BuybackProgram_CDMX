@@ -1,0 +1,56 @@
+﻿
+Identifier: MEX-INEGI.40.202.03-CNSPF-2021
+
+Title: Censo Nacional de Seguridad Pública Federal 2021
+
+Description: INEGI. Censo Nacional de Seguridad Pública Federal 2021. 
+
+Tiene como objetivo generar información estadística y geográfica sobre la gestión y desempeño de la Guardia Nacional, específicamente en las funciones de gobierno y seguridad pública, con la finalidad de que esta se vincule con el quehacer gubernamental dentro del proceso de diseño, implementación, monitoreo y evaluación de las políticas públicas de alcance nacional en los referidos temas.
+
+El CNSPF 2021 presenta datos e información sobre:
+
+1. La integración de la Guardia Nacional, de la estructura organizacional y los recursos humanos, presupuestales y materiales de los que dispone, así como de los fallecimientos del personal adscrito y asignado a la Guardia Nacional, a efecto de conocer las características de estos.
+
+2. El régimen disciplinario del personal adscrito y asignado a la Guardia Nacional, con el objetivo de conocer las sanciones o correctivos disciplinarios impuestos a dicho personal por los consejos de disciplina, así como las denuncias o querellas presentadas en su contra por la realización o participación en algún presunto delito relacionado con el ejercicio de sus funciones.
+
+3. La infraestructura para la seguridad pública con la que cuenta la Guardia Nacional, con la finalidad de conocer las instalaciones en funcionamiento, así como los elementos, mecanismos y/o instrumentos dirigidos al apoyo en el ejercicio de la función.
+
+4. Los elementos y acciones institucionales que lleva a cabo la Guardia Nacional para el desarrollo de actividades estadísticas y/o geográficas, a efecto de conocer las características básicas en las que se desarrollan dichas actividades.
+
+5. Los protocolos que rigen la operación de la Guardia Nacional, con la finalidad de conocer los temas del marco regulatorio bajo el cual desarrolla las funciones que tiene conferidas.
+
+6. Las asociaciones interinstitucionales de las que forma parte la Guardia Nacional para desarrollar sus funciones, a efecto de conocer la naturaleza jurídica de las mismas y el tipo de organizaciones públicas, organismos internacionales, organizaciones de la sociedad civil y universidades con las que se celebraron.
+
+7. La unidad especializada de la Guardia Nacional en la atención de quejas y/o recomendaciones en materia de derechos humanos, así como la cantidad de recomendaciones atendidas, con la finalidad de conocer los aspectos básicos que permitan caracterizar estos elementos.
+
+8. Las academias o centros de reclutamiento con los que cuenta la Guardia Nacional, con el objetivo de conocer los nombres, características de la infraestructura, la cantidad de reclutas que ingresaron, egresaron y desertaron de dichos organismos.
+
+9. Los traslados efectuados, las acciones realizadas en tareas de seguridad, hechos presuntamente delictivos registrados en las puestas a disposición de personas y los aseguramientos ejecutados por la Guardia Nacional, con la finalidad de conocer las características básicas de dichas funciones.
+
+10. Los ciberpatrullajes y ciberinvestigaciones realizadas por la Dirección General Científica de la Guardia Nacional, de los reportes y solicitudes atendidas sobre incidentes electrónicos, así como las acciones para la prevención en materia de ciberseguridad, con el objetivo de conocer las características relacionadas con el desarrollo de estas.
+
+11. Los enfrentamientos en los que participaron integrantes de la Guardia Nacional, a efecto de conocer el personal fallecido y lesionado, así como los civiles armados detenidos, fallecidos y lesionados como resultado de dichos enfrentamientos.
+
+12. Las acciones, infracciones, siniestros y hechos probablemente delictivos en carreteras y puentes de jurisdicción federal, registrados por la Guardia Nacional, con la finalidad de conocer aspectos básicos que permitan caracterizar estos elementos.
+
+Modified: 2022-04-08
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx 
+
+License: http://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: https://www.inegi.org.mx/rnm/index.php/catalog/751/data-dictionary
+
+Keyword: "recursos humanos", "recursos presupuestales", "infraestructura policial", "llamadas de emergencia", "academias o centros de reclutamiento", "ciberseguridad", "enfrentamientos", "carreteras y puentes de jurisdicción federal"
+
+ContactPoint: Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+
+Temporal: 2020-01-01-2020-12-31
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Anualmente
+
+Distribution: https://www.inegi.org.mx/programas/cnspf/2021/

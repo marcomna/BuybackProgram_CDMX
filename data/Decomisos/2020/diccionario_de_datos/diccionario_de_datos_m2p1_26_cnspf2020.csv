@@ -1,0 +1,3 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_a,Entidad federativa,SECC I. 1.26,Numérico,2,1 al 99
+totalca1,Tomas clandestinas aseguradas,SECC I. 1.26,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

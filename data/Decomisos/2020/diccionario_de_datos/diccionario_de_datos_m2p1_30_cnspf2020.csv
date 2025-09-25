@@ -1,0 +1,6 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+tiprepor_b,Tipo de reporte,SECC I. 1.30,Numérico,1,1 al 3
+vehasett,Total,SECC I. 1.30,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehase1,Aéreos,SECC I. 1.30,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehase2,Marítimos,SECC I. 1.30,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehase3,Terrestres,SECC I. 1.30,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

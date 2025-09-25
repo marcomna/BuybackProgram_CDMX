@@ -1,0 +1,30 @@
+
+Identifier:   DCAT-MEX-INEGI-SCNM.IMAIEF-AB2018-012
+
+Title:   Sistema de Cuentas Nacionales de México. Indicador Mensual de la Actividad Industrial por Entidad Federativa
+
+Description:   INEGI. Sistema de Cuentas Nacionales de México. Indicador Mensual de la Actividad Industrial por Entidad Federativa. SNIEG. Información de Interés Nacional. 
+
+Proporciona información mensual sobre la evolución de las actividades industriales en las entidades federativas, que permita un conocimiento amplio y oportuno sobre el sector industrial en el ámbito estatal.
+
+Modified:   2024-06-05
+
+Publisher:   Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox:   atencion.usuarios@inegi.org.mx
+
+License:   https://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary:   
+
+Keyword:   "imaief", "indicador", "actividad", "sector industrial secundario", "actividades secundarias", "industria", "índice volumen físico", "crecimiento económico", "estatal", "regional"
+
+ContactPoint:   Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+
+Temporal:   2003-01-2024-02
+
+Spatial:   Estados Unidos Mexicanos
+
+AccrualPeriodicity:   Mensualmente
+
+Distribution:   https://www.inegi.org.mx/programas/aief/2018/

@@ -1,0 +1,34 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 17,Carácter,4,0-5000
+enticve1,Entidad,SECC IV. 17,Carácter,2500,
+entifed1,Nombre de la Entidad Federativa,SECC IV. 17,Carácter,2500,
+ubicageo_e,Municipio,SECC IV. 17,Numérico,5,0 al 99999
+municip1,Nombre de Municipio o demarcación territorial,SECC IV. 17,Carácter,2500,
+merpir1,Pares de calzado (excepto calzado deportivo),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir2,Pares de calzado deportivo,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir3,Ropa,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir4,Juguetes,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir5,Libros,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir6,Consolas de videojuegos,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir7,Fonogramas (discos de música),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir8,Videogramas (películas),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir9,Software (en dispositivos de almacenamiento físicos),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir10,Bebidas alcohólicas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir11,Cajetillas de cigarro,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir12,Cigarros,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir13,Equipos de cómputo,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir14,Teléfonos celulares,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir15,Accesorios para teléfonos celulares (sin incluir audífonos),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir16,Audífonos para teléfonos celulares,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir17,Identificaciones oficiales o documentos,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir18,Mochilas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir19,Bolsas de mano,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir20,Dinero en efectivo (incluye billetes y monedas),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir21,Relojes,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir22,Lentes de sol,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir23,Perfumes,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir24,Medicinas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir25,Vacunas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir26,Cubrebocas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir27,Equipo médico (sin incluir cubrebocas),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+merpir28,Otro tipo de mercancía apócrifa o pirata,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

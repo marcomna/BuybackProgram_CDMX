@@ -1,0 +1,18 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_a,Entidad federativa,SECC I. .31,Numérico,2,1 al 99
+vehreptt,Total,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep1,Total - Con reporte de robo,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep2,Total - Sin reporte de robo,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep3,Total - No identificado,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehreps1,Aéreos - Subtotal,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep4,Aéreos - Con reporte de robo,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep5,Aéreos - Sin reporte de robo,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep6,Aéreos - No identificado,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehreps2,Marítimos - Subtotal,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep8,Marítimos - Con reporte de robo,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep9,Marítimos - Sin reporte de robo,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep10,Marítimos - No identificado,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehreps3,Terrestres - Subtotal,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep12,Terrestres - Con reporte de robo,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep13,Terrestres - Sin reporte de robo,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep14,Terrestres - No identificado,SECC I. 1.31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

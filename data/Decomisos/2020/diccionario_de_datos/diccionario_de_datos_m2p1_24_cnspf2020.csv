@@ -1,0 +1,7 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+hidroc1,Diésel (litros),SECC I. 1.24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc2,Petróleo (litros),SECC I. 1.24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc3,Gasolina (litros),SECC I. 1.24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc4,Gas LP (litros),SECC I. 1.24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc5,Combustóleo (litros),SECC I. 1.24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc6,Otros hidrocarburos (litros),SECC I. 1.24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

@@ -1,0 +1,5 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+parfauna_a,Tipos de partes y/o productos de especies de fauna,SECC IV. 31,Numérico,2,1 al 18
+rnsnni1,Realización de aseguramientos del tipo de partes y/o productos de especies de fauna,SECC IV. 31,Numérico,2,0 al 98
+unidmedi_j,Unidad de medida para su contabilización,SECC IV. 31,Numérico,2,0 al 98
+totalca1,Cantidad de partes y/o productos de especies de fauna asegurada,SECC IV. 31,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

@@ -1,0 +1,49 @@
+Identifier: MEX-INEGI.40.1200.03-CNSPF-2024
+
+Title: Censo Nacional de Seguridad Pública Federal 2024
+
+Description: INEGI. Censo Nacional de Seguridad Pública Federal 2024.
+
+Tiene como objetivo generar información estadística y geográfica sobre la gestión y desempeño de la Guardia Nacional, específicamente en la función de seguridad pública. Su finalidad es vincular los datos con el diseño, implementación, monitoreo y evaluación de las políticas públicas de alcance nacional en dicha función.
+
+El CNSPF 2024 presenta datos e información sobre:
+
+1. La infraestructura de la Guardia Nacional, los recursos humanos, presupuestales y materiales de los que dispone para el ejercicio de sus funciones, así como las asociaciones interinstitucionales y certificaciones que enmarcan su actuación.
+2. Las puestas a disposición de objetos y de personas ante la autoridad de Justicia Cívica y ante el Ministerio Público realizadas por el personal adscrito o asignado a la Guardia Nacional.
+3. Las actuaciones del personal adscrito o asignado a la Guardia Nacional dentro del Sistema de Justicia Penal.
+4. La infraestructura específica, así como las actividades de prevención y atención en materia de ciberseguridad llevadas a cabo por la Guardia Nacional.
+5. Los aseguramientos de armas, hidrocarburos, narcóticos, plantíos ilícitos, vehículos, mercancía apócrifa o pirata, laboratorios y otros bienes y recursos realizados por la Guardia Nacional.
+6. Los operativos, patrullajes y remisiones de vehículos llevados a cabo por la Guardia Nacional.
+7. Los servicios de atención a víctimas, búsqueda y localización de personas desaparecidas o no localizadas, así como rescate de población en contexto de movilidad brindados por la Guardia Nacional.
+8. Las boletas de infracción y actas-convenio levantadas por la Guardia Nacional, así como de las infracciones de tránsito, personas conductoras sancionadas y montos asociados a las multas impuestas registradas en dichas boletas y actas-convenio. 
+9. Los operativos, probables robos o asaltos, accidentes, tomas de casetas de peaje y/ u obstrucciones ocurridas en carreteras y puentes de jurisdicción federal, así como de los robos y actos de vandalismo en vías férreas registrados por la Guardia Nacional.
+10. Los enfrentamientos en los que haya participado personal adscrito o asignado a la Guardia Nacional, así como del personal y de las personas civiles armadas fallecidas, lesionadas y, para el caso de las segundas, detenidas como resultado de dichos enfrentamientos.
+11. Las características de los bienes robados y recuperados hechos del conocimiento de la Guardia Nacional.
+
+Note: Para georreferenciación de los datos de coordenadas geográficas se utiliza el Sistema de Referencia de Coordenadas (SCR) WGS84 (World Geodetic System 1984), cuyo formato consiste en la representación con dos cifras de latitud y longitud, en positivo para Norte y Este, y negativo para Sur y Oeste.
+
+      Con fecha 11 de octubre de 2024 se reemplaza el archivo diccionario_de_datos_m2bs4p16_cnspf2024.csv y diccionario_de_datos_m2bs4p16cp3_cnspf2024.csv debido a que se actualizaron las descripciones de los campos.
+
+      Con fecha 05 de diciembre de 2024 se reemplaza el conjunto de datos m2bs4p2_cnspf2024.csv derivado de una actualización de datos por parte del informante.
+
+Modified: 2024-12-05
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx 
+
+License: http://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: https://www.inegi.org.mx/rnm/index.php/catalog/1033/data-dictionary
+
+Keyword: "Persona titular", "personal", "evaluaciones de control de confianza", "dignificación del servicio", "Consejo de Carrera", "presupuesto ejercido", "infraestructura", "Centro Nacional de Atención Ciudadana", "llamadas de emergencia", "centros de adiestramiento", "puestas a disposición", "presuntas faltas cívicas", "probables personas infractoras", "probables personas responsables", "presuntos delitos", "probables víctimas", "denuncias", "inspecciones", "audiencias", "traslados", "ciberseguridad", "aseguramientos", "operativos", "servicios de patrullaje", "personas desaparecidas o no localizadas", "infracciones de tránsito", "actos de vandalismo en vías férreas", "probables robos y asaltos", "enfrentamientos", "bienes robados y recuperados", "accidentes en carreteras y puentes"  
+
+ContactPoint: Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+
+Temporal: 2023-01-01-2023-12-31
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Anualmente
+
+Distribution: https://www.inegi.org.mx/programas/cnspf/2024/

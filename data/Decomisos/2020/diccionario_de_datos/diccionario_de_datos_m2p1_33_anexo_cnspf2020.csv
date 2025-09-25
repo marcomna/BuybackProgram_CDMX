@@ -1,0 +1,31 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_c,Entidad federativa,SECC I. 1.33,Numérico,2,1 al 99
+entifed1,Nombre de Entidad federativa,SECC I. 1.33,Carácter,2500,
+ubicageo_d,Municipio,SECC I. 1.33,Numérico,5,0 al 32999
+municip1,Nombre de Municipio,SECC I. 1.33,Carácter,2500,
+meappitt,Total,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi1,Pares de calzado (excepto calzado deportivo),SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi2,Pares de calzado deportivo,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi3,Ropa,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi4,Juguetes,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi5,Libros,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi6,Consolas de videojuegos,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi7,Fonogramas (discos de música),SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi8,Videogramas (películas),SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi9,Software (en dispositivos de almacenamiento físicos),SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi10,Bebidas alcohólicas,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi11,Cajetillas de cigarro,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi12,Cigarros,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi13,Equipos de cómputo,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi14,Teléfonos celulares,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi15,Accesorios para teléfonos celulares (sin incluir audífonos),SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi16,Audífonos para teléfonos celulares,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi17,Mochilas,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi18,Bolsas de mano,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi19,Relojes,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi20,Lentes de sol,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi21,Perfumes,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi22,Medicinas,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi23,Cubrebocas,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi24,Equipo médico (sin incluir cubrebocas),SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meappi25,Otra mercancía apócrifa o pirata,SECC I. 1.33,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

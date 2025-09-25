@@ -1,0 +1,3 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+rnsnni1,Realización de aseguramientos de tomas clandestinas de hidrocarburos,SECC IV. 7,Numérico,2,0 al 98
+totalca1,Tomas clandestinas de hidrocarburos aseguradas,SECC IV. 7,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

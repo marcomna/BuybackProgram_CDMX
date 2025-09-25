@@ -1,0 +1,5 @@
+"Comentarios del Tabulado."
+"Los datos nacionales corresponden a los publicados el 11 de abril de 2024."
+"Leyendas."
+"P","Preliminar"
+"No Aplica.","NA"

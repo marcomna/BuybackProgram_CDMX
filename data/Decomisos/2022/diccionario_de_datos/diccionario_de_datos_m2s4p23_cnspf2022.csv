@@ -1,0 +1,5 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+rensnp1,Realización de aseguramientos de equipos de comunicación,SECC IV. 23,Numérico,2,0 al 98
+equcom1,Celulares,SECC IV. 23,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+equcom2,Antenas,SECC IV. 23,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+equcom3,Equipos de radiocomunicación,SECC IV. 23,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

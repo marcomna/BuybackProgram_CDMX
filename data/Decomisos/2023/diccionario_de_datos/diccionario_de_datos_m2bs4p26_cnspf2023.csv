@@ -1,0 +1,5 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+tipoflor_a,Tipos de especies de flora,SECC IV. 26,Numérico,4,101 al 1000
+rnsnni1,Realización del aseguramiento del tipo de especies de flora,SECC IV. 26,Numérico,2,0 al 98
+unidmedi_i,Unidad de medida para su contabilización,SECC IV. 26,Numérico,2,0 al 98
+totalca1,Cantidad de especies de flora asegurada,SECC IV. 26,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

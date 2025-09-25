@@ -1,0 +1,6 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+rnsnni1,Realización de aseguramientos de laboratorios,SECC IV. 17,Numérico,2,0 al 98
+labtiptt,Total,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+labtip1,Narcóticos,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+labtip2,Medicinas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+labtip3,Otro tipo,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

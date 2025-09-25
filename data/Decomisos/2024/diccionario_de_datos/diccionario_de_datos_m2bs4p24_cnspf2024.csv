@@ -1,0 +1,6 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_e,Entidad federativa,SECC IV. 24,Numérico,2,1 al 99
+eqcomu1,Celulares,SECC IV. 24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+eqcomu2,Antenas,SECC IV. 24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+eqcomu3,Equipos de radiocomunicación,SECC IV. 24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+eqcomu4,Inhibidores de señal o frecuencia,SECC IV. 24,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

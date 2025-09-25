@@ -1,0 +1,28 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 10,Carácter,4,0-5000
+enticve1,Clave de Entidad federativa,SECC IV. 10,Carácter,2500,
+entifed1,Nombre de Entidad federativa,SECC IV. 10,Carácter,2500,
+municve1,Clave de Municipio o demarcación territorial,SECC IV. 10,Carácter,2500,
+municip1,Nombre de Municipio o demarcación territorial,SECC IV. 10,Carácter,2500,
+narcgn1,Cocaína (kilogramos),SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn2,"Cannabis sativa, indica o mariguana (kilogramos) - Hojas",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn3,"Cannabis sativa, indica o mariguana (kilogramos) - Hashis",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn4,"Cannabis sativa, indica o mariguana (kilogramos) - Semillas",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn5,"Cannabis sativa, indica o mariguana (kilogramos) - Plantas",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn6,"Cannabis sativa, indica o mariguana (kilogramos) - No identificada",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn7,Amapola adormidera (opiáceos) (kilogramos) - Semillas,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn8,Amapola adormidera (opiáceos) (kilogramos) - Goma,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn9,Amapola adormidera (opiáceos) (kilogramos) - Heroína,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn10,Amapola adormidera (opiáceos) (kilogramos) - Morfina,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn11,Amapola adormidera (opiáceos) (kilogramos) - Plantas y/ o bulbos,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn12,Amapola adormidera (opiáceos) (kilogramos) - No identificada,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn13,Lisergida (LSD) (kilogramos),SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn14,"MDA, Metilendioxianfetamina - Kilogramos",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn15,"MDA, Metilendioxianfetamina - Tabletas o cápsulas",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn16,"MDMA, dl-34-metilendioxi-n-dimetilfeniletilamina - Kilogramos",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn17,"MDMA, dl-34-metilendioxi-n-dimetilfeniletilamina - Tabletas o cápsulas",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn18,Metanfetamina - Kilogramos,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn19,Metanfetamina - Tabletas o cápsulas,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn20,Psicotrópicos (tabletas o cápsulas),SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn21,Fentanilo - Kilogramos,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narcgn22,Fentanilo - Tabletas o cápsulas,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

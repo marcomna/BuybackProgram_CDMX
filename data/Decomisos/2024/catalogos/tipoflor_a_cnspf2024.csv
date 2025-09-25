@@ -1,0 +1,28 @@
+tipoflor_a,descrip
+101,Agaváceas - Agaves
+102,Agaváceas - Bacanoras
+103,Agaváceas - Magueyes
+104,Agaváceas - Mezcales
+105,Agaváceas - Otro tipo de agaváceas
+106,Agaváceas - Agaváceas no identificadas
+201,Cactáceas - Biznagas
+202,Cactáceas - Cactus
+203,Cactáceas - Nopales
+204,Cactáceas - Otro tipo de cactáceas
+205,Cactáceas - Cactáceas no identificadas
+301,Cicadales - Palmas
+302,Cicadales - Palmeras
+303,Cicadales - Otro tipo de palmas
+304,Cicadales - Cicadales no identificadas
+401,Maderables - Caobas
+402,Maderables - Cedros
+403,Maderables - Oyameles
+404,Maderables - Pinos
+405,Maderables - Otro tipo de maderables
+406,Maderables - Maderables no identificadas
+500,Copales (burseras)
+600,"Lirios, lilas"
+700,Orquídeas
+800,Pata de elefante (beaucarnea recurvata)
+900,Tulipanes
+1000,Otro tipo de especies de flora

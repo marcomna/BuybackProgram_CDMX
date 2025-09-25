@@ -1,0 +1,36 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 17,Carácter,4,0-5000
+enticve1,Entidad federativa - Clave,SECC IV. 17,Carácter,2500,
+entifed1,Entidad federativa - Nombre,SECC IV. 17,Carácter,2500,
+municve1,Municipio o demarcación territorial - Clave,SECC IV. 17,Carácter,2500,
+municip1,Municipio o demarcación territorial - Nombre,SECC IV. 17,Carácter,2500,
+meapia1,Pares de calzado (excepto calzado deportivo),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia2,Pares de calzado deportivo,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia3,Ropa,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia4,Juguetes,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia5,Libros,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia6,Consolas de videojuegos,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia7,Fonogramas (discos de música),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia8,Videogramas (películas),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia9,Software (en dispositivos de almacenamiento físicos),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia10,Bebidas alcohólicas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia11,Cajetillas de cigarro,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia12,Cigarros (sin incluir cigarros electrónicos),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia13,Cigarros electrónicos,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia14,Equipos de cómputo,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia15,Teléfonos celulares,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia16,Accesorios para teléfonos celulares (sin incluir audífonos),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia17,Audífonos para teléfonos celulares,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia18,Identificaciones oficiales o documentos,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia19,Mochilas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia20,Bolsas de mano,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia21,Dinero en efectivo (incluye billetes y monedas),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia22,Relojes,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia23,Lentes de sol,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia24,Perfumes,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia25,Medicinas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia26,Vacunas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia27,Cubrebocas,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia28,Equipo médico (sin incluir cubrebocas),SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia29,Placas de vehículos,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+meapia30,Otro tipo de mercancía apócrifa o pirata,SECC IV. 17,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

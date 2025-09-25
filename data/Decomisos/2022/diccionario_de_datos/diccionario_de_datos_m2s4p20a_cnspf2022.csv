@@ -1,0 +1,8 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_e,Entidad federativa,SECC IV. 20,Numérico,2,1 al 99
+umetpr1,Lingotes de oro,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+umetpr2,Monedas de oro,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+umetpr3,Onzas de oro,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+umetpr4,Lingotes de plata,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+umetpr5,Monedas de plata,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+umetpr6,Onzas de plata,SECC IV. 20,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

@@ -1,0 +1,78 @@
+﻿
+Identifier: MEX-INEGI.40.1200.03-CNSPF-2018
+
+Title: Censo Nacional de Seguridad Pública Federal 2018
+
+Description: INEGI. Censo Nacional de Seguridad Pública Federal 2018. SNIEG. Información de Interés Nacional. 
+
+Tiene como objetivo generar información estadística y geográfica de la gestión y desempeño de la Policía Federal, específicamente en las funciones de gobierno y seguridad pública, con la finalidad de que dicha información, se vincule con el quehacer gubernamental dentro del proceso de diseño, implementación, monitoreo y evaluación de las políticas públicas de alcance nacional en los temas referidos.
+
+El CNSPF 2018 presenta datos e información sobre:
+
+1. La estructura organizacional de la Policía Federal.
+
+2. La cantidad de recursos humanos y presupuestales con los que cuenta la Policía Federal.
+
+3. El Servicio Profesional de carrera, a fin de conocer la cantidad de personal incorporado u obligado a incorporase, así como los elementos de profesionalización con los que cuenta la Policía Federal.
+
+4. Las evaluaciones de control y confianza de la Policía Federal.
+
+5. El personal de la Policía Federal que estuvo obligado o recibió cursos de capacitación.
+
+6. La información de la cantidad de infraestructura para el ejercicio de la función de seguridad pública con la que cuenta la Policía Federal en cada entidad federativa.
+
+7. La cantidad de bienes inmuebles con los que cuenta la Policía Federal.
+
+8. La cantidad de llamadas que recibió la Policía Federal a través del Centro Nacional de Atención Ciudadana por medio del sistema 088.
+
+9. Los elementos y acciones institucionales que ha realizado la Policía Federal, para la implementación y ejercicio de funciones específicas.
+
+10. Los elementos y acciones institucionales que ha llevado a cabo la Policía Federal, para la implementación y ejercicio de control interno y anticorrupción.
+
+11. La cantidad de leyes y disposiciones normativas internas de la Policía Federal.
+
+12. Los elementos y acciones que ha realizado la Policía Federal, en materia de asociación interinstitucional.
+
+13. Los traslados efectuados por la Policía Federal.
+
+14. La cantidad de acciones realizadas por la Policía Federal en colaboración con autoridades nacionales.
+
+15. La cantidad de personas aseguradas por la Policía Federal por la comisión de un hecho probablemente delictivo.
+
+16. Los aseguramientos de armas de fuego, municiones y explosivos, hidrocarburos, probables narcóticos, vehículos u otros bienes, efectuados por la Policía Federal.
+
+17. Las acciones de búsqueda y localización de personas.
+
+18. Las ciber investigaciones y ciber patrullajes realizadas por la División Científica de la Policía Federal.
+
+19. La cantidad de eventos por enfrentamientos entre personal de la Policía Federal y por probables miembros de la delincuencia organizada.
+
+20. Las acciones en carreteras y puentes de jurisdicción federal registradas por la Policía Federal.
+
+21. La cantidad de infracciones en carreteras y puentes de jurisdicción federal registradas por la Policía Federal.
+
+22. Los siniestros en carreteras y puentes de jurisdicción federal registrados por la Policía Federal.
+
+23. Los hechos probablemente delictivos reportados por la Policía Federal en carreteras y puentes de jurisdicción federal.
+
+Modified: 2019-02-26
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx 
+
+License: http://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: http://www3.inegi.org.mx/rnm/index.php/catalog/445/data_dictionary?idPro=
+
+Keyword: Seguridad Pública, Policía Federal, Personal, Control interno, Anticorrupción, Traslados, Aseguramientos, Enfrentamientos, Carreteras y puentes, Hechos probablemente delictivos, Personas detenidas, Robos
+
+ContactPoint: Lic. José de Jesús Esquivel de la Rosa, 01800 111 4634
+
+Temporal: 2017-01-01-2017-12-31
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Anualmente
+
+Distribution: https://www.inegi.org.mx/programas/cnspf/2018/

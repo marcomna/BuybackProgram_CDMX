@@ -1,0 +1,11 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+ubicageo_d,Municipio,SECC I 1.25,Numérico,5,0 al 32999
+entidad_c,Entidad federativa,SECC I 1.25,Numérico,2,1 al 99
+entifed1,Nombre de Entidad federativa,SECC I 1.25,Carácter,2500,
+municip1,Nombre de Municipio o demarcación territorial,SECC I 1.25,Carácter,2500,
+hidroc1,Diésel (litros),SECC I 1.25,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc2,Petróleo (litros),SECC I 1.25,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc3,Gasolina (litros),SECC I 1.25,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc4,Gas LP (litros),SECC I 1.25,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc5,Combustóleo (litros),SECC I 1.25,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc6,Otros hidrocarburos (litros),SECC I 1.25,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

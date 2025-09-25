@@ -1,0 +1,12 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 12,Carácter,4,0-5000
+enticve1,Entidad federativa - Clave,SECC IV. 12,Carácter,2500,
+entifed1,Entidad federativa - Nombre,SECC IV. 12,Carácter,2500,
+municve1,Municipio o demarcación territorial - Clave,SECC IV. 12,Carácter,2500,
+municip1,Municipio o demarcación territorial - Nombre,SECC IV. 12,Carácter,2500,
+plsude1,"Plantíos ilícitos destruidos, según tipo de cultivo - Total",SECC IV. 12,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+plsude2,"Plantíos ilícitos destruidos, según tipo de cultivo - Cannabis sativa, indica o mariguana",SECC IV. 12,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+plsude3,"Plantíos ilícitos destruidos, según tipo de cultivo - Amapola adormidera (opiáceos)",SECC IV. 12,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+plsude5,"Superficie erradicada, según tipo de cultivo (en hectáreas) - Total",SECC IV. 12,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+plsude6,"Superficie erradicada, según tipo de cultivo (en hectáreas) - Cannabis sativa, indica o mariguana",SECC IV. 12,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+plsude7,"Superficie erradicada, según tipo de cultivo (en hectáreas) - Amapola adormidera (opiáceos)",SECC IV. 12,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

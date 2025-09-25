@@ -1,0 +1,30 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 10,Carácter,4,0-5000
+enticve1,Entidad,SECC IV. 10,Carácter,2500,
+entifed1,Nombre de la Entidad Federativa,SECC IV. 10,Carácter,2500,
+ubicageo_e,Municipio,SECC IV. 10,Numérico,5,0 al 99999
+municip1,Nombre de Municipio o demarcación territorial,SECC IV. 10,Carácter,2500,
+narmed1,Cocaína (en kilogramos),SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed2,"Cannabis sativa, indica o mariguana (en kilogramos) - Total",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed3,"Cannabis sativa, indica o mariguana (en kilogramos) - Hojas",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed4,"Cannabis sativa, indica o mariguana (en kilogramos) - Hashis",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed5,"Cannabis sativa, indica o mariguana (en kilogramos) - Semillas",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed6,"Cannabis sativa, indica o mariguana (en kilogramos) - Plantas",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed7,"Cannabis sativa, indica o mariguana (en kilogramos) - No identificado",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed9,Amapola adormidera (opiáceos) (en kilogramos) - Total,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed10,Amapola adormidera (opiáceos) (en kilogramos) - Semillas,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed11,Amapola adormidera (opiáceos) (en kilogramos) - Goma,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed12,Amapola adormidera (opiáceos) (en kilogramos) - Heroína,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed13,Amapola adormidera (opiáceos) (en kilogramos) - Morfina,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed14,Amapola adormidera (opiáceos) (en kilogramos) - Plantas y/o bulbos,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed15,Amapola adormidera (opiáceos) (en kilogramos) - No identificado,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed17,Lisergida (LSD) (en kilogramos),SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed18,"MDA, Metilendioxianfetamina - Total en kilogramos",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed19,"MDA, Metilendioxianfetamina - Total por unidad (tableta o cápsula)",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed20,"MDMA, dl-34-metilendioxi-n-dimetilfeniletilamina - Total en kilogramos",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed21,"MDMA, dl-34-metilendioxi-n-dimetilfeniletilamina - Total por unidad (tableta o cápsula)",SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed22,Metanfetamina - Total en kilogramos,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed23,Metanfetamina - Total por unidad (tableta o cápsula),SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed24,Psicotrópicos (tableta o cápsula),SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed25,Fentanilo - Total en kilogramos,SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+narmed26,Fentanilo - Total por unidad (tableta o cápsula),SECC IV. 10,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

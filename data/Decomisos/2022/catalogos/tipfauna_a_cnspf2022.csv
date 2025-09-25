@@ -1,0 +1,92 @@
+﻿tipfauna_a,descrip
+1101,"Vertebrados - Mamíferos - Caninos (lobos, zorros, coyotes)"
+1102,"Vertebrados - Mamíferos - Felinos (leones, tigres, jaguares, pumas, ocelotes, linces)"
+1103,"Vertebrados - Mamíferos - Liebres, conejos, teporingos"
+1104,"Vertebrados - Mamíferos - Marinos (delfines, manatís, ballenas, vaquitas, focas)"
+1105,Vertebrados - Mamíferos - Osos
+1106,"Vertebrados - Mamíferos - Pequeños mamíferos (tlacuaches, erizos, coatis, mapaches)"
+1107,"Vertebrados - Mamíferos - Perezosos, hormigueros, armadillos"
+1108,"Vertebrados - Mamíferos - Primates (chimpancés, monos, mandriles)"
+1109,"Vertebrados - Mamíferos - Rumiantes (venados, bisontes, borregos)"
+1110,Vertebrados - Mamíferos - Otro tipo de mamíferos (especifique)
+1111,Vertebrados - Mamíferos - Mamíferos no identificados
+1201,Vertebrados - Aves - Aves de corral
+1202,"Vertebrados - Aves - Aves rapaces (águilas, halcones, gavilanes)"
+1203,"Vertebrados - Aves - Búhos, lechuzas y tecolotes"
+1204,Vertebrados - Aves - Flamencos
+1205,Vertebrados - Aves - Guacamayas
+1206,"Vertebrados - Aves - Loros, pericos y cotorros"
+1207,Vertebrados - Aves - Tucanes
+1208,Vertebrados - Aves - Otro tipo de aves
+1209,Vertebrados - Aves - Aves no identificadas
+1301,Vertebrados - Reptiles - Camaleones
+1302,"Vertebrados - Reptiles - Cocodrilos, caimanes"
+1303,Vertebrados - Reptiles - Gekos
+1304,Vertebrados - Reptiles - Iguanas
+1305,Vertebrados - Reptiles - Lagartijas
+1306,Vertebrados - Reptiles - Serpientes
+1307,Vertebrados - Reptiles - Tortugas
+1308,Vertebrados - Reptiles - Otro tipo de reptiles
+1309,Vertebrados - Reptiles - Reptiles no identificados
+1401,Vertebrados - Anfibios - Ajolotes
+1402,Vertebrados - Anfibios - Ranas
+1403,Vertebrados - Anfibios - Salamandras
+1404,Vertebrados - Anfibios - Sapos
+1405,Vertebrados - Anfibios - Otro tipo de anfibios
+1406,Vertebrados - Anfibios - Anfibios no identificados
+1501,Vertebrados - Peces - Anguilas
+1502,Vertebrados - Peces - Atunes
+1503,Vertebrados - Peces - Bagres
+1504,Vertebrados - Peces - Carpas
+1505,Vertebrados - Peces - Cazones
+1506,Vertebrados - Peces - Lenguados
+1507,Vertebrados - Peces - Lisas
+1508,Vertebrados - Peces - Lobinas
+1509,Vertebrados - Peces - Mantarrayas
+1510,Vertebrados - Peces - Mojarras
+1511,Vertebrados - Peces - Pargos
+1512,Vertebrados - Peces - Robalos
+1513,Vertebrados - Peces - Salmones
+1514,Vertebrados - Peces - Sardinas
+1515,Vertebrados - Peces - Sierras
+1516,Vertebrados - Peces - Tiburones
+1517,Vertebrados - Peces - Tilapias
+1518,Vertebrados - Peces - Totoabas y corvinas
+1519,Vertebrados - Peces - Otro tipo de peces
+1520,Vertebrados - Peces - Peces no identificados
+1600,Vertebrados - Otro tipo de vertebrados
+1700,Vertebrados - Vertebrados no identificados
+2101,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Alacranes y escorpiones"
+2102,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Camarones"
+2103,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Cangrejos, jaibas y langostas"
+2104,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Ciempiés y milpiés"
+2105,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Cucarachas"
+2106,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Grillos"
+2107,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Hormigas"
+2108,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Mariposas"
+2109,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Tarántulas y arañas"
+2110,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Otro tipo de artrópodos"
+2111,"Invertebrados - Artrópodos (arácnidos, insectos, miriápodos y crustáceos) - Artrópodos no identificados"
+2201,Invertebrados - Cnidarios - Corales
+2202,Invertebrados - Cnidarios - Anémonas
+2203,Invertebrados - Cnidarios - Medusas
+2204,Invertebrados - Cnidarios - Otro tipo de cnidarios
+2205,Invertebrados - Cnidarios - Cnidarios no identificados
+2301,Invertebrados - Equinodermos - Estrellas de mar
+2302,Invertebrados - Equinodermos - Erizos de mar
+2303,Invertebrados - Equinodermos - Pepinos de mar
+2304,Invertebrados - Equinodermos - Otro tipo de equinodermos
+2305,Invertebrados - Equinodermos - Equinodermos no identificados
+2401,Invertebrados - Moluscos - Almejas
+2402,Invertebrados - Moluscos - Calamares
+2403,Invertebrados - Moluscos - Caracoles
+2404,Invertebrados - Moluscos - Ostiones
+2405,Invertebrados - Moluscos - Pulpos
+2406,Invertebrados - Moluscos - Otro tipo de moluscos
+2407,Invertebrados - Moluscos - Moluscos no identificados
+2501,Invertebrados - Poríferos - Esponjas
+2502,Invertebrados - Poríferos - Otro tipo de poríferos
+2503,Invertebrados - Poríferos - Poríferos no identificados
+2600,Invertebrados - Otro tipo de invertebrados
+2700,Invertebrados - Invertebrados no identificados
+3000,Otro tipo de especies de fauna

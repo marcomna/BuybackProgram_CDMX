@@ -1,0 +1,4 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+metalpre_a,Tipos de metales preciosos,SECC IV. 19,Numérico,1,1 al 4
+rensnp1,Realización del aseguramiento del tipo de metales preciosos,SECC IV. 19,Numérico,2,0 al 98
+totalca1,Cantidad de metales preciosos asegurados (en kilogramos),SECC IV. 19,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

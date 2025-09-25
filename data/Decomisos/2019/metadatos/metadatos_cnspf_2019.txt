@@ -1,0 +1,52 @@
+﻿
+Identifier: MEX-INEGI.40.1200.03-CNSPF-2019
+
+Title: Censo Nacional de Seguridad Pública Federal 2019
+
+Description: INEGI. Censo Nacional de Seguridad Pública Federal 2019. SNIEG. Información de Interés Nacional. 
+
+Tiene como objetivo generar información estadística y geográfica sobre la gestión y desempeño de la Policía Federal, específicamente en las funciones de gobierno y seguridad pública, con la finalidad de que esta se vincule con el quehacer gubernamental dentro del proceso de diseño, implementación, monitoreo y evaluación de las políticas públicas de alcance nacional en los referidos temas de interés nacional.
+
+El CNSPF 2019 presenta datos e información sobre:
+
+1. La estructura organizacional y de la distribución de los recursos humanos, presupuestales y materiales con los que cuenta la Policía Federal.
+
+2. Los elementos y acciones institucionales que lleva a cabo la Policía Federal para el desarrollo de las actividades estadísticas y/o geográficas.
+
+3. Los elementos y acciones institucionales que se llevan a cabo en la Policía Federal para la implementación y ejercicio de la función de control interno y vigilancia.
+
+4. Las disposiciones normativas internas y protocolos que rigen la operación de la Policía Federal.
+
+5. Las asociaciones interinstitucionales de la Policía Federal que tengan como objetivo realizar funciones en materia de seguridad pública.
+
+6. El ejercicio de la función de la Policía Federal, como son los traslados efectuados; acciones en colaboración con autoridades nacionales; personas aseguradas por la comisión de un hecho probablemente delictivo; aseguramientos de armas de fuego, municiones y explosivos, hidrocarburos, probables narcóticos, vehículos u otros bienes; y localización de personas.
+
+7. Las ciberinvestigaciones y ciberpatrullajes realizadas por la División Científica de la Policía Federal.
+
+8. Las personas fallecidas, lesionadas y detenidas con motivo de los enfrentamientos entre personal de la Policía Federal y probables miembros de la delincuencia organizada.
+
+9. Las acciones, infracciones, siniestros y hechos probablemente delictivos en carreteras y puentes de jurisdicción federal registrados por la Policía Federal.
+
+10. Los policías que fallecieron en cumplimiento de su función.
+
+Modified: 2020-04-02
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx 
+
+License: http://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: http://www3.inegi.org.mx/rnm/index.php/catalog/581/data_dictionary?idPro=
+
+Keyword: Policía federal, Recursos humanos, Recusos preuspuestales, Recursos materiales, Control interno, Antocorrupción, Marco regulatorio, Personas aseguradas, Aseguramientos, Uso de la fuerza, Fallecimientos, Siniestros
+
+ContactPoint: Lic. José de Jesús Esquivel de la Rosa, 800 111 4634
+
+Temporal: 2018-01-01-2018-12-31
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Anualmente
+
+Distribution: https://www.inegi.org.mx/programas/cnspf/2019/

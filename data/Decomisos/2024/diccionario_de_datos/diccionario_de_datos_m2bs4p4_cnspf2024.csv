@@ -1,0 +1,26 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 4,Carácter,4,0-5000
+enticve1,Clave de Entidad federativa,SECC IV. 4,Carácter,2500,
+entifed1,Nombre de Entidad federativa,SECC IV. 4,Carácter,2500,
+municve1,Clave de Municipio o demarcación territorial,SECC IV. 4,Carácter,2500,
+municip1,Nombre de Municipio o demarcación territorial,SECC IV. 4,Carácter,2500,
+armasa1,Armas de fuego - Largas,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa2,Armas de fuego - Cortas,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa3,Armas de fuego - No identificado,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa4,Lanzagranadas,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa5,Lanzacohetes,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa6,Explosivos - Granadas,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa7,Explosivos - Minas,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa8,Explosivos - No identificado,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa9,Municiones (cartuchos) - De uso común,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa10,Municiones (cartuchos) - Trazadores,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa11,Municiones (cartuchos) - Perforantes,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa12,Municiones (cartuchos) - Postas,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa13,Municiones (cartuchos) - Otro tipo,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa14,Municiones (cartuchos) - No identificado,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa15,Casquillos,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa16,De fabricación artesanal - Armas de fuego,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa17,De fabricación artesanal - Municiones (cartuchos),SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa18,De fabricación artesanal - No identificado,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa19,Otro tipo de armas,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+armasa20,No identificado,SECC IV. 4,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

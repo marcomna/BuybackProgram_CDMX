@@ -1,0 +1,6 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+ubicageo_d,Municipio,SECC I 1.26,Numérico,5,0 al 32999
+entidad_c,Entidad federativa,SECC I 1.26,Numérico,2,1 al 99
+entifed1,Nombre de Entidad federativa,SECC I 1.26,Carácter,2500,
+municip1,Nombre de Municipio o demarcación territorial,SECC I 1.26,Carácter,2500,
+totalca1,Tomas clandestinas aseguradas,SECC I 1.26,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

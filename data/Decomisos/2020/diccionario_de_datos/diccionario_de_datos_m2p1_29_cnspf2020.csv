@@ -1,0 +1,5 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+entidad_a,Entidad federativa,SECC I. 1.29,Numérico,2,1 al 99
+mariamtt,Total,SECC I. 1.29,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+mariam1,"Cannabis sativa, indica o mariguana",SECC I. 1.29,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+mariam2,Amapola adormidera (opiáceos),SECC I. 1.29,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

@@ -1,0 +1,22 @@
+﻿COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 14,Carácter,4,0-5000
+enticve1,Entidad,SECC IV. 14,Carácter,2500,
+entifed1,Nombre de la Entidad Federativa,SECC IV. 14,Carácter,2500,
+ubicageo_e,Municipio,SECC IV. 14,Numérico,5,0 al 99999
+municip1,Nombre de Municipio o demarcación territorial,SECC IV. 14,Carácter,2500,
+vehreptt,Total,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep1,Total - Con reporte de robo,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep2,Total - Sin reporte de robo,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep3,Total - No identificado,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehreps1,Aéreos - Subtotal,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep4,Aéreos - Con reporte de robo,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep5,Aéreos - Sin reporte de robo,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep6,Aéreos - No identificado,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehreps2,Marítimos - Subtotal,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep8,Marítimos - Con reporte de robo,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep9,Marítimos - Sin reporte de robo,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep10,Marítimos - No identificado,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehreps3,Terrestres - Subtotal,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep12,Terrestres - Con reporte de robo,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep13,Terrestres - Sin reporte de robo,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+vehrep14,Terrestres - No identificado,SECC IV. 14,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

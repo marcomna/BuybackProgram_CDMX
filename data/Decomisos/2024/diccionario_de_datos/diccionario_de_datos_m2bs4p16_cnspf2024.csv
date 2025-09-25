@@ -1,0 +1,11 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+mercpira_f,Tipo de mercancía apócrifa o pirata,SECC IV. 16,Numérico,2,1 al 99
+rnsnni1,Realización de aseguramientos del tipo de mercancía apócrifa o pirata,SECC IV. 16,Numérico,2,0 al 98
+unmeco1,Piezas o unidades,SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+unmeco2,Kilogramos,SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+unmeco3,Litros,SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+unmeco4,Metros,SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+unmeco5,Pesos mexicanos,SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+unmeco6,"Tableta, pastilla o cápsula",SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+unmeco7,Caja o cajetilla,SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+unmeco8,Otra unidad de medida,SECC IV. 16,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"

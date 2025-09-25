@@ -1,0 +1,53 @@
+Identifier: MEX-INEGI.40.1200.03-CNSPF-2022
+
+Title: Censo Nacional de Seguridad Pública Federal 2022
+
+Description: INEGI. Censo Nacional de Seguridad Pública Federal 2022. 
+
+Tiene como objetivo generar información estadística y geográfica sobre la gestión y desempeño de la Guardia Nacional, específicamente en la función de seguridad pública, con la finalidad de que esta se vincule con el quehacer gubernamental dentro del proceso de diseño, implementación, monitoreo y evaluación de las políticas públicas de alcance nacional en el referido tema.
+
+El CNSPF 2022 presenta datos e información sobre:
+
+1. La infraestructura de la Guardia Nacional, así como de los recursos humanos, presupuestales y materiales de los que dispone para el ejercicio de sus funciones.
+
+2. Las puestas a disposición de objetos y de personas ante la autoridad de Justicia Cívica y ante el Ministerio Público, realizadas por el personal de la Guardia Nacional.
+
+3. Las actuaciones del personal adscrito o asignado a la Guardia Nacional dentro del Sistema de Justicia Penal.
+
+4. Las actividades de prevención y atención en materia de ciberseguridad llevadas a cabo por la Guardia Nacional.  
+
+5. Los aseguramientos de armas, hidrocarburos, narcóticos, plantíos ilícitos, vehículos, mercancía apócrifa y otros bienes y recursos, realizados por la Guardia Nacional. 
+	
+6. Los operativos policiales, patrullajes y remisiones de vehículos llevados a cabo por la Guardia Nacional.
+
+7. Los servicios de atención a víctimas y de búsqueda y localización de personas desaparecidas y no localizadas, así como del rescate de población en contexto de movilidad, prestados por la Guardia Nacional.
+
+8. Los operativos, infracciones de tránsito, probables robos y asaltos, tomas de casetas de peaje y obstrucciones ocurridas en carreteras y puentes de jurisdicción federal, así como de los robos y actos de vandalismo en vías férreas, registrados por la Guardia Nacional.
+
+9. Los enfrentamientos en los que participaron elementos de la Guardia Nacional, así como del personal y de las personas civiles armadas fallecidas, lesionadas y detenidas como resultado de los mismos.
+
+10. Las características de los objetos robados y recuperados que fueron hechos del conocimiento de la Guardia Nacional.
+
+11. Los accidentes ocurridos en carreteras y puentes de jurisdicción federal registrados por la Guardia Nacional.
+
+Modified: 2023-03-22
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx 
+
+License: http://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: https://www.inegi.org.mx/rnm/index.php/catalog/854/data-dictionary
+
+Keyword: "personal", "unidad administrativa", "Guardia Nacional", "coordinaciones estatales", "presupuesto", "infraestructura", "llamadas de emergencia", "academias o centros de reclutamiento", "ciberseguridad", "certificaciones", "aseguramientos", "operativos", "patrullajes", "puestas a disposición", "atenciones a víctimas", "infracciones de tránsito", "enfrentamientos", "hechos probablemente delictivos", "accidentes"
+
+ContactPoint: Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+
+Temporal: 2021-01-01-2021-12-31
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Anualmente
+
+Distribution: https://www.inegi.org.mx/programas/cnspf/2022/

@@ -1,0 +1,13 @@
+COLUMNA,DESCRIPCION,ORIGEN,TIPO_DATO,LONGITUD,CODIGO_VALIDO
+numeral,Identificador o numeral del orden que guarda cada registro capturado dentro de la lista,SECC IV. 6,Carácter,4,0-5000
+enticve1,Clave de Entidad federativa,SECC IV. 6,Carácter,2500,
+entifed1,Nombre de Entidad federativa,SECC IV. 6,Carácter,2500,
+municve1,Clave de Municipio o demarcación territorial,SECC IV. 6,Carácter,2500,
+municip1,Nombre de Municipio o demarcación territorial,SECC IV. 6,Carácter,2500,
+hidroc1,Diésel (litros),SECC IV. 6,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc2,Petróleo (litros),SECC IV. 6,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc3,Gasolina (litros),SECC IV. 6,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc4,Gas LP (litros),SECC IV. 6,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc5,Combustóleo (litros),SECC IV. 6,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc7,No identificado (litros),SECC IV. 6,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
+hidroc6,Otros hidrocarburos (litros),SECC IV. 6,Carácter,20,"0-999999999999999, NA, NSS, ND, NP, NULL"
