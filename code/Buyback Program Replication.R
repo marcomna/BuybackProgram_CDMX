@@ -779,17 +779,69 @@ placebo_mar2020 <- build_temporal_placebo(
   opt_end   = as.Date("2020-02-01")
 )
 
-placebo_dic2020 <- build_temporal_placebo(
-  delitosCS,
-  i_time    = as.Date("2020-12-01"),
-  opt_start = as.Date("2017-01-01"),
-  opt_end   = as.Date("2020-11-01"),
-  extra_predictors = function(sc) {
-    sc %>%
-      generate_predictor(c(as.Date("2020-01-01"), as.Date("2020-11-01")),
-                         average2020 = mean(armas_conUD, na.rm = TRUE))
-  }
-)
+placebo_dic2020 <- delitosCS %>%
+  filter(!Entidad %in% donor_exclude) %>%
+  synthetic_control(
+    outcome           = armas_conUD,
+    unit              = Entidad,
+    time              = Fecha,
+    i_unit            = "Ciudad de México",
+    i_time            = as.Date("2020-12-01"),
+    generate_placebos = FALSE
+  ) %>%
+  generate_predictor(
+    time_window = c(as.Date("2017-01-01"), as.Date("2020-11-01")),
+    trespassing       = mean(`Allanamiento de morada`, na.rm = TRUE),
+    grand_theft_auto  = mean(`Robo de coche de 4 ruedas Con violencia`, na.rm = TRUE),
+    unemployment_rate = mean(unemp_rate, na.rm = TRUE),
+    ipi               = mean(ipi, na.rm = TRUE),
+    ipi_pct_change    = mean(ipi_pct_change_month, na.rm = TRUE),
+    drug_dealing      = mean(Narcomenudeo, na.rm = TRUE),
+    kidnapping        = mean(`Secuestro extorsivo`, na.rm = TRUE),
+    weapon            = mean(`Con arma blanca`, na.rm = TRUE),
+    tractors          = mean(`Robo de tractores Con violencia`, na.rm = TRUE),
+    threats           = mean(Amenazas, na.rm = TRUE),
+    family_violence   = mean(`Violencia familiar`, na.rm = TRUE),
+    property_damage   = mean(`Daño a la propiedad`, na.rm = TRUE),
+    bodily_harm       = mean(`Otros delitos que atentan contra la vida y la integridad corporal`,
+                             na.rm = TRUE)
+  ) %>%
+  generate_predictor(time_window = as.Date("2017-01-01"), FC0117 = armas_conUD) %>%
+  generate_predictor(time_window = as.Date("2017-05-01"), FC0517 = armas_conUD) %>%
+  generate_predictor(time_window = as.Date("2017-09-01"), FC0917 = armas_conUD) %>%
+  generate_predictor(time_window = as.Date("2018-01-01"), FC0118 = armas_conUD) %>%
+  generate_predictor(time_window = as.Date("2018-05-01"), FC0518 = armas_conUD) %>%
+  generate_predictor(time_window = as.Date("2018-09-01"), FC0918 = armas_conUD) %>%
+  generate_predictor(time_window = c(as.Date("2017-01-01"), as.Date("2017-03-01")),
+                     q1_2017 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2017-04-01"), as.Date("2017-06-01")),
+                     q2_2017 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2017-07-01"), as.Date("2017-09-01")),
+                     q3_2017 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2017-10-01"), as.Date("2017-12-01")),
+                     q4_2017 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2018-01-01"), as.Date("2018-03-01")),
+                     q1_2018 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2018-04-01"), as.Date("2018-06-01")),
+                     q2_2018 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2018-07-01"), as.Date("2018-09-01")),
+                     q3_2018 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2018-10-01"), as.Date("2018-12-01")),
+                     q4_2018 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(c(as.Date("2017-01-01"), as.Date("2017-12-01")),
+                     average2017 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(c(as.Date("2018-01-01"), as.Date("2018-12-01")),
+                     average2018 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_predictor(c(as.Date("2019-01-01"), as.Date("2019-12-01")),
+                     average2019 = mean(armas_conUD, na.rm = TRUE)) %>%
+  # Dec-2020 placebo only: additional pre-year average through Nov 2020
+  generate_predictor(c(as.Date("2020-01-01"), as.Date("2020-11-01")),
+                     average2020 = mean(armas_conUD, na.rm = TRUE)) %>%
+  generate_weights(
+    optimization_window = c(as.Date("2017-01-01"), as.Date("2020-11-01")),
+    margin_ipop = 0.02, sigf_ipop = 7, bound_ipop = 5
+  ) %>%
+  generate_control()
 
 # Extract and plot temporal placebos
 extract_synth_series <- function(sc_obj, delitosCS) {
@@ -1112,8 +1164,80 @@ volatiles_hn <- homi_nofire_panel %>%
 
 donor_exclude_hn <- union(donor_exclude, volatiles_hn)
 
-cs_homi_nofire <- run_sc_outcome(homi_nofire_panel, "homi_nofire_rate",
-                                 donor_excl = donor_exclude_hn, opt_margin = 0.01)
+# NOTE: This model uses a bespoke predictor set designed for non-firearm
+# homicides (modality proxies, coercion variables, firearm availability
+# controls) and bimonthly snapshots — intentionally different from the
+# standard run_sc_outcome() template used for the other outcomes.
+cs_homi_nofire <- homi_nofire_panel %>%
+  filter(!Entidad %in% donor_exclude_hn) %>%
+  synthetic_control(
+    outcome           = homi_nofire_rate,
+    unit              = Entidad,
+    time              = Fecha,
+    i_unit            = "Ciudad de México",
+    i_time            = as.Date("2019-01-01"),
+    generate_placebos = TRUE
+  ) %>%
+  # --- Baseline predictors: theory-driven for non-firearm homicides ---
+  generate_predictor(
+    time_window = c(as.Date("2017-01-01"), as.Date("2018-12-01")),
+    with_knife         = mean(`Con arma blanca`, na.rm = TRUE),
+    with_other_element = mean(`Con otro elemento`, na.rm = TRUE),
+    with_violence      = mean(`Con violencia`, na.rm = TRUE),
+    without_violence   = mean(`Sin violencia`, na.rm = TRUE),
+    threats            = mean(Amenazas, na.rm = TRUE),
+    extortion          = mean(`Extorsión`, na.rm = TRUE),
+    family_violence    = mean(`Violencia familiar`, na.rm = TRUE),
+    bodily_harm        = mean(`Otros delitos que atentan contra la vida y la integridad corporal`,
+                              na.rm = TRUE),
+    drug_dealing       = mean(Narcomenudeo, na.rm = TRUE),
+    unemployment_rate  = mean(unemp_rate, na.rm = TRUE),
+    ipi_level          = mean(ipi, na.rm = TRUE),
+    ipi_change         = mean(ipi_pct_change_month, na.rm = TRUE),
+    armas_conUD_mean   = mean(armas_conUD, na.rm = TRUE),
+    armas_sinUD_mean   = mean(armas_sinUD, na.rm = TRUE)
+  ) %>%
+  # --- Bimonthly snapshots (every 2 months, 2017–2018) ---
+  generate_predictor(time_window = as.Date("2017-01-01"), s_2017_01 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2017-03-01"), s_2017_03 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2017-05-01"), s_2017_05 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2017-07-01"), s_2017_07 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2017-09-01"), s_2017_09 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2017-11-01"), s_2017_11 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2018-01-01"), s_2018_01 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2018-03-01"), s_2018_03 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2018-05-01"), s_2018_05 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2018-07-01"), s_2018_07 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2018-09-01"), s_2018_09 = homi_nofire_rate) %>%
+  generate_predictor(time_window = as.Date("2018-11-01"), s_2018_11 = homi_nofire_rate) %>%
+  # --- Quarterly averages (2017–2018) ---
+  generate_predictor(time_window = c(as.Date("2017-01-01"), as.Date("2017-03-01")),
+                     q1_2017 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2017-04-01"), as.Date("2017-06-01")),
+                     q2_2017 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2017-07-01"), as.Date("2017-09-01")),
+                     q3_2017 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2017-10-01"), as.Date("2017-12-01")),
+                     q4_2017 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2018-01-01"), as.Date("2018-03-01")),
+                     q1_2018 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2018-04-01"), as.Date("2018-06-01")),
+                     q2_2018 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2018-07-01"), as.Date("2018-09-01")),
+                     q3_2018 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  generate_predictor(time_window = c(as.Date("2018-10-01"), as.Date("2018-12-01")),
+                     q4_2018 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  # --- Annual level anchors ---
+  generate_predictor(c(as.Date("2017-01-01"), as.Date("2017-12-01")),
+                     average2017 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  generate_predictor(c(as.Date("2018-01-01"), as.Date("2018-12-01")),
+                     average2018 = mean(homi_nofire_rate, na.rm = TRUE)) %>%
+  # --- Weight optimization (tighter margin for better pre-fit) ---
+  generate_weights(
+    optimization_window = c(as.Date("2017-01-01"), as.Date("2018-12-01")),
+    margin_ipop = 0.01, sigf_ipop = 7, bound_ipop = 5
+  ) %>%
+  generate_control()
 
 panel_synth_homi_nofire <- cs_homi_nofire %>%
   unnest(cols = c(.synthetic_control)) %>%
@@ -1836,6 +1960,11 @@ combined_cdmx %>%
         legend.position = "bottom")
 
 # Synthetic DiD — INEGI firearm deaths (X93–X95)
+# NOTE: Built manually (not via run_synthdid helper) because def_af_panel
+# uses the raw count outcome rather than a rate and does not have a
+# Poblacion2020 column required by the helper's panel structure.
+set.seed(123)
+
 def_af_panel <- homi_af_collapsed %>%
   transmute(
     Entidad = recode(entidad,
@@ -1852,23 +1981,62 @@ def_af_panel <- homi_af_collapsed %>%
   group_by(Entidad, Fecha) %>%
   summarise(def_af = sum(def_af, na.rm = TRUE), .groups = "drop")
 
-sdid_inegi <- run_synthdid(
-  def_af_panel %>% rename(Fecha = Fecha),   # column already named Fecha
-  outcome_var = "def_af"
-)
-print_synthdid_results(sdid_inegi, "INEGI def_af (X93–X95)")
+treated_unit_inegi <- "Ciudad de México"
+donors_exclude_inegi <- c("Morelos", "México")
+treat_date_inegi     <- as.Date("2019-01-01")
+post_end_inegi       <- as.Date("2020-03-01")
+
+panel_sd_inegi <- def_af_panel %>%
+  filter(!Entidad %in% donors_exclude_inegi) %>%
+  arrange(Entidad, Fecha)
+
+time_points_inegi   <- sort(unique(panel_sd_inegi$Fecha))
+control_units_inegi <- setdiff(unique(panel_sd_inegi$Entidad), treated_unit_inegi)
+units_order_inegi   <- c(control_units_inegi, treated_unit_inegi)
+
+Y_inegi <- panel_sd_inegi %>%
+  mutate(Entidad = factor(Entidad, levels = units_order_inegi)) %>%
+  arrange(Entidad, Fecha) %>%
+  pivot_wider(names_from = Fecha, values_from = def_af, values_fill = list(def_af = 0)) %>%
+  column_to_rownames("Entidad") %>%
+  as.matrix()
+
+keep_dates_inegi <- time_points_inegi[time_points_inegi <= post_end_inegi]
+Y_inegi <- Y_inegi[, as.character(keep_dates_inegi)]
+
+N0_inegi <- length(control_units_inegi)
+T0_inegi <- which(keep_dates_inegi == treat_date_inegi) - 1
+
+tau_inegi  <- synthdid_estimate(Y_inegi, N0 = N0_inegi, T0 = T0_inegi)
+se_p_inegi <- sqrt(as.numeric(vcov(tau_inegi, method = "placebo")))
+ci_p_inegi <- as.numeric(tau_inegi) + c(-1, 1) * 1.96 * se_p_inegi
+
+cat("\n=== Synthetic DiD (INEGI def_af — X93–X95) — Post: 2019-01 to 2020-03 ===\n")
+cat(sprintf("ATT (post average): %0.4f\n", as.numeric(tau_inegi)))
+cat(sprintf("SE (placebo):       %0.4f   | 95%% CI: (%0.4f, %0.4f)\n",
+            se_p_inegi, ci_p_inegi[1], ci_p_inegi[2]))
+print(summary(tau_inegi))
+
+cat("\n--- Top donor controls (weights) ---\n")
+print(head(synthdid_controls(tau_inegi), 15))
+
+sc_inegi  <- sc_estimate (Y_inegi, N0_inegi, T0_inegi)
+did_inegi <- did_estimate(Y_inegi, N0_inegi, T0_inegi)
+
+cat(sprintf("\nSC ATT: %0.4f  |  DiD ATT: %0.4f\n",
+            as.numeric(sc_inegi), as.numeric(did_inegi)))
 
 print(synthdid_plot(
-  list("SDID" = sdid_inegi$tau, "SC" = sdid_inegi$sc, "DiD" = sdid_inegi$did),
+  list("SDID" = tau_inegi, "SC" = sc_inegi, "DiD" = did_inegi),
   facet = NULL, overlay = 1, ci.alpha = 0.01, line.width = 0.8,
   treated.name = "CDMX", control.name = "Synthetic CDMX"
 ))
 
 # Dynamic effect curve
-post_dates_inegi <- sdid_inegi$keep_dates[(sdid_inegi$T0 + 1):length(sdid_inegi$keep_dates)]
+post_dates_inegi <- keep_dates_inegi[(T0_inegi + 1):length(keep_dates_inegi)]
 eff_df_inegi <- tibble(
   Fecha  = post_dates_inegi,
-  Efecto = as.numeric(synthdid_effect_curve(sdid_inegi$tau))
+  Efecto = as.numeric(synthdid_effect_curve(tau_inegi))
 )
 
 ggplot(eff_df_inegi, aes(x = Fecha, y = Efecto)) +
@@ -1879,6 +2047,14 @@ ggplot(eff_df_inegi, aes(x = Fecha, y = Efecto)) +
   theme_minimal(base_size = 12) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         axis.title  = element_text(face = "bold"))
+
+cat("\n--- Design checks (INEGI def_af, trimmed panel) ---\n")
+cat(sprintf("Number of controls (N0): %d\n", N0_inegi))
+cat(sprintf("Pre length (T0):         %d months\n", T0_inegi))
+cat(sprintf("Total months:            %d\n", ncol(Y_inegi)))
+cat(sprintf("Treated unit last row?:  %s\n",
+            ifelse(tail(rownames(Y_inegi), 1) != "Ciudad de México",
+                   "NO (check ordering!)", "YES")))
 
 
 ## =============================================================================
